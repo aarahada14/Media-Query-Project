@@ -1,0 +1,3566 @@
+<!doctype html>
+<!--[if IE 8]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US">
+    <!--<![endif]-->
+    <head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+        <title>Upcoming Movies, Latest Bollywood Movies, Hindi Movies 2024 | Koimoi</title><link rel="preload" data-rocket-preload as="image" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/Devara.jpg" fetchpriority="high">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msvalidate.01" content="C73B5F107EC533B7F8E60D6FBF73840B" />
+        <link rel="pingback" href="https://www.koimoi.com/xmlrpc.php" />
+        <meta property="fb:app_id" content="379203805755441" />
+        
+                    <link rel="stylesheet" href="https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/owl.carousel.min.css">
+            <link rel="stylesheet" href="https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/font-awesome.min.css">
+               
+        <link rel="preload" href="https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.woff2" as="font" type="font/woff2" crossorigin>
+        
+        <!-- NOTE: do not load gpt.js it will be loaded by HB -->
+        <!-- HB Invocation code -->
+        <script type="rocketlazyloadscript">
+            // Affinity HB code
+            function loadHBScriptOnScroll() {
+                (function () {
+                    var o = 'script',
+                      s = top.document,
+                      a = s.createElement(o),
+                      m = s.getElementsByTagName(o)[0],
+                      d = new Date(),
+                      t = '' + d.getDate() + d.getMonth() + d.getHours();
+                    a.async = 1;
+                    a.id = "affhbinv";
+                    a.className = "v3_top_cdn";
+                    a.src = 'https://cdn4-hbs.affinitymatrix.com/hbcnf/koimoi.com/' + t + '/affhb.data.js?t=' + t;
+                    m.parentNode.insertBefore(a, m);
+                })();
+            }
+            // Affinity HVR code
+            function loadHVRScriptOnScroll() {
+                (function () {
+                    var o = 'script',
+                    s = top.document,
+                    a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0],
+                    d = new Date();
+                    a.async = 1;
+                    a.src = 'https://hbs.ph.affinity.com/v5/koimoi.com/index.php?t=' + d.getDate() + d.getMonth() + d.getHours();
+                    m.parentNode.insertBefore(a, m)
+                })();
+            }
+
+            var scriptLoaded = false;
+
+            function handleScroll() {
+                if (!scriptLoaded) {
+                    loadHBScriptOnScroll();
+                    loadHVRScriptOnScroll();
+                    scriptLoaded = true;
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll);
+        </script>
+        
+        <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+            function __affIntlMain(e,t,a){e.googletag=e.top.googletag||{cmd:[]},e.__affAu=t;var n=e.innerWidth>0?e.innerWidth:screen.width;if(e.__affIntlReq=!1,e.__affAuSl,2===a||a===n<760){googletag.cmd.push(function(){e.__affAuSl=googletag.defineOutOfPageSlot(e.__affAu,googletag.enums.OutOfPageFormat.INTERSTITIAL),e.__affAuSl&&(e.__affAuSl.addService(googletag.pubads()),googletag.enableServices());var t=function(e){googletag.pubads().removeEventListener("slotRenderEnded",t),f(!0,!1)};googletag.pubads().addEventListener("slotRenderEnded",t),setTimeout(f,2e3,!1,!0)});function f(t,a){if(!e.__affIntlReq&&(e.__affIntlReq=!0,t||a)){for(var n=googletag.pubads(),f=n.getSlots(),d=0;d<f.length;d++)if(!0===f[d].getOutOfPage()&&""===f[d].getEscapedQemQueryId()){var i=f[d].getAdUnitPath();googletag.destroySlots([f[d]]);var l=googletag.defineOutOfPageSlot(i,googletag.enums.OutOfPageFormat.INTERSTITIAL);l&&(l.addService(googletag.pubads()),1===f.length&&googletag.enableServices(),googletag.display(l),!0===n.isInitialLoadDisabled()&&n.refresh([l]),t?console.log("tv:re"):a&&console.log("tv:ct"));break}}}}}
+            __affIntlMain(window, "/18938132/Koimoi_Interstitial_Google", 2);
+        </script>
+        
+        <script type="rocketlazyloadscript">
+            function decodeHtml(html) {
+                return jQuery("<textarea/>").html(html).text();
+            }
+
+            function attachHtml(id, html) {
+                var elm = document.getElementById(id);
+                elm.innerHTML = html;
+                var scripts = elm.getElementsByTagName("script");
+                var scriptsClone = [];
+                for (var i = 0; i < scripts.length; i++) {
+                    scriptsClone.push(scripts[i]);
+                }
+                for (var i = 0; i < scriptsClone.length; i++) {
+                    var currentScript = scriptsClone[i];
+                    var s = document.createElement("script");
+                    // Copy all the attributes from the original script
+                    for (var j = 0; j < currentScript.attributes.length; j++) {
+                        var a = currentScript.attributes[j];
+                        s.setAttribute(a.name, a.value);
+                    }
+                    s.appendChild(document.createTextNode(currentScript.innerHTML));
+                    currentScript.parentNode.replaceChild(s, currentScript);
+                }
+            }
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-FL309G1213"></script>
+        <script type="rocketlazyloadscript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-FL309G1213');
+        </script>
+
+        <script type="rocketlazyloadscript">
+            function isKoimoiMobileApp() {
+                const ua = window.navigator.userAgent;
+                return /bo-app/i.test(ua) || /koimoi-app/i.test(ua);
+            }
+        </script>
+        
+        
+        
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": "Upcoming Movies",
+                    "url": "https://www.koimoi.com/upcoming-movies"
+                }
+                </script>
+
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.koimoi.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/www.koimoi.com\/upcoming-movies\/","name":"Upcoming Movies"}}]}</script><meta name="atdlayout" content="articlepage" /><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="icon" type="image/png" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2020/08/16x16.jpg">
+	<!-- This site is optimized with the Yoast SEO Premium plugin v23.2 (Yoast SEO v23.2) - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Check out the entire list of upcoming Bollywood films, latest Hindi movies of 2024 along with cast, release date, news, reviews, box office collection, budget and much more only on Koimoi." />
+	<link rel="canonical" href="https://www.koimoi.com/upcoming-movies/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Upcoming Movies" />
+	<meta property="og:url" content="https://www.koimoi.com/upcoming-movies/" />
+	<meta property="og:site_name" content="Koimoi" />
+	<meta property="article:publisher" content="https://www.facebook.com/koimoidotcom/" />
+	<meta property="article:modified_time" content="2020-11-05T10:38:15+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Koimoi" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+
+<link rel="alternate" type="application/rss+xml" title="Koimoi &raquo; Feed" href="https://www.koimoi.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Koimoi &raquo; Comments Feed" href="https://www.koimoi.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Koimoi &raquo; Stories Feed" href="https://www.koimoi.com/web-stories/feed/"><style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 11px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 32px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--regular: 15px;--wp--preset--font-size--larger: 50px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-polls-css' href='https://static-koimoi.akamaized.net/wp-content/plugins/wp-polls/polls-css.css?ver=2.77.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 8px;
+	line-height: 10px;
+	height: 10px;
+	background-image: url('https://static-koimoi.akamaized.net/wp-content/plugins/wp-polls/images/default_gradient/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel='stylesheet' id='rsfv-fallback-css' href='https://static-koimoi.akamaized.net/wp-content/plugins/really-simple-featured-video/includes/Compatibility/Themes/Fallback/styles.css?ver=1716963925' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://static-koimoi.akamaized.net/wp-content/plugins/tablepress/css/build/default.css?ver=2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://static-koimoi.akamaized.net/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.8' type='text/css' media='all' />
+<link rel='stylesheet' id='td-theme-css' href='https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/style.css?ver=10' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://static-koimoi.akamaized.net/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://static-koimoi.akamaized.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://static-koimoi.akamaized.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="rocketlazyloadscript"></script><link rel="https://api.w.org/" href="https://www.koimoi.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.koimoi.com/wp-json/wp/v2/pages/518374" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.koimoi.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel='shortlink' href='https://www.koimoi.com/?p=518374' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.koimoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.koimoi.com%2Fupcoming-movies%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.koimoi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.koimoi.com%2Fupcoming-movies%2F&#038;format=xml" />
+		<link rel="manifest" href="https://www.koimoi.com/wp-json/wp/v2/web-app-manifest">
+					<meta name="theme-color" content="#fff">
+								<meta name="apple-mobile-web-app-capable" content="yes">
+				<meta name="mobile-web-app-capable" content="yes">
+
+				<link rel="apple-touch-startup-image" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/06/cropped-Favicon-192x192.png">
+
+				<meta name="apple-mobile-web-app-title" content="Koimoi">
+		<meta name="application-name" content="Koimoi">
+		<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+        <link rel="alternate" href="https://www.koimoi.com/upcoming-movies/" hreflang="en-in">
+    <link rel="alternate" href="https://www.koimoi.com/upcoming-movies/" hreflang="en-us">
+        <style>
+    .home .owl-nav.disabled {
+        display:none;
+    }
+    </style>
+    <script type="rocketlazyloadscript">
+        window.onload = function() {
+            setTimeout(function(){ 
+                var elList = document.querySelectorAll('.td-post-content figure img');
+                elList.forEach(el => el.style.display = "block");
+            }, 3000);
+        };
+    </script>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!-- There is no amphtml version available for this URL. -->
+<!-- JS generated by theme -->
+
+<script type="rocketlazyloadscript">
+    
+    
+
+	    var tdBlocksArray = []; //here we store all the items for the current page
+
+	    //td_block class - each ajax block uses a object of this class for requests
+	    function tdBlock() {
+		    this.id = '';
+		    this.block_type = 1; //block type id (1-234 etc)
+		    this.atts = '';
+		    this.td_column_number = '';
+		    this.td_current_page = 1; //
+		    this.post_count = 0; //from wp
+		    this.found_posts = 0; //from wp
+		    this.max_num_pages = 0; //from wp
+		    this.td_filter_value = ''; //current live filter value
+		    this.is_ajax_running = false;
+		    this.td_user_action = ''; // load more or infinite loader (used by the animation)
+		    this.header_color = '';
+		    this.ajax_pagination_infinite_stop = ''; //show load more at page x
+	    }
+
+
+        // td_js_generator - mini detector
+        (function(){
+            var htmlTag = document.getElementsByTagName("html")[0];
+
+	        if ( navigator.userAgent.indexOf("MSIE 10.0") > -1 ) {
+                htmlTag.className += ' ie10';
+            }
+
+            if ( !!navigator.userAgent.match(/Trident.*rv\:11\./) ) {
+                htmlTag.className += ' ie11';
+            }
+
+	        if ( navigator.userAgent.indexOf("Edge") > -1 ) {
+                htmlTag.className += ' ieEdge';
+            }
+
+            if ( /(iPad|iPhone|iPod)/g.test(navigator.userAgent) ) {
+                htmlTag.className += ' td-md-is-ios';
+            }
+
+            var user_agent = navigator.userAgent.toLowerCase();
+            if ( user_agent.indexOf("android") > -1 ) {
+                htmlTag.className += ' td-md-is-android';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Mac OS X')  ) {
+                htmlTag.className += ' td-md-is-os-x';
+            }
+
+            if ( /chrom(e|ium)/.test(navigator.userAgent.toLowerCase()) ) {
+               htmlTag.className += ' td-md-is-chrome';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Firefox') ) {
+                htmlTag.className += ' td-md-is-firefox';
+            }
+
+            if ( -1 !== navigator.userAgent.indexOf('Safari') && -1 === navigator.userAgent.indexOf('Chrome') ) {
+                htmlTag.className += ' td-md-is-safari';
+            }
+
+            if( -1 !== navigator.userAgent.indexOf('IEMobile') ){
+                htmlTag.className += ' td-md-is-iemobile';
+            }
+
+        })();
+
+
+
+
+        var tdLocalCache = {};
+
+        ( function () {
+            "use strict";
+
+            tdLocalCache = {
+                data: {},
+                remove: function (resource_id) {
+                    delete tdLocalCache.data[resource_id];
+                },
+                exist: function (resource_id) {
+                    return tdLocalCache.data.hasOwnProperty(resource_id) && tdLocalCache.data[resource_id] !== null;
+                },
+                get: function (resource_id) {
+                    return tdLocalCache.data[resource_id];
+                },
+                set: function (resource_id, cachedData) {
+                    tdLocalCache.remove(resource_id);
+                    tdLocalCache.data[resource_id] = cachedData;
+                }
+            };
+        })();
+
+    
+    
+var tds_login_sing_in_widget="show";
+var td_viewport_interval_list=[{"limitBottom":767,"sidebarWidth":228},{"limitBottom":1018,"sidebarWidth":300},{"limitBottom":1140,"sidebarWidth":324}];
+var td_ajax_url="https:\/\/www.koimoi.com\/wp-admin\/admin-ajax.php?td_theme_name=Newspaper&v=9.6.1";
+var td_get_template_directory_uri="https:\/\/www.koimoi.com\/wp-content\/themes\/Newsmag";
+var tds_snap_menu="snap";
+var tds_logo_on_sticky="show_header_logo";
+var tds_header_style="3";
+var td_please_wait="Please wait...";
+var td_email_user_pass_incorrect="User or password incorrect!";
+var td_email_user_incorrect="Email or username incorrect!";
+var td_email_incorrect="Email incorrect!";
+var tds_more_articles_on_post_enable="";
+var tds_more_articles_on_post_time_to_wait="";
+var tds_more_articles_on_post_pages_distance_from_top=0;
+var tds_theme_color_site_wide="#d13030";
+var tds_smart_sidebar="";
+var tdThemeName="Newspaper";
+var td_magnific_popup_translation_tPrev="Previous (Left arrow key)";
+var td_magnific_popup_translation_tNext="Next (Right arrow key)";
+var td_magnific_popup_translation_tCounter="%curr% of %total%";
+var td_magnific_popup_translation_ajax_tError="The content from %url% could not be loaded.";
+var td_magnific_popup_translation_image_tError="The image #%curr% could not be loaded.";
+var tdDateNamesI18n={"month_names":["January","February","March","April","May","June","July","August","September","October","November","December"],"month_names_short":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"day_names":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"day_names_short":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]};
+var td_ad_background_click_link="";
+var td_ad_background_click_target="";
+</script>
+
+<!-- Begin comScore Tag -->
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "10182942" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="https://b.scorecardresearch.com/p?c1=2&c2=10182942&cv=2.0&cj=1" alt="scorecardresearch" />
+    </noscript>
+    <!-- End comScore Tag --><link rel="icon" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/06/cropped-Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/06/cropped-Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/06/cropped-Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/06/cropped-Favicon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.td-menu-mob-open-menu .td-menu-background, .td-menu-mob-open-menu #td-mobile-nav {
+    visibility: visible;
+    -webkit-transition: transform 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+    -moz-transition: transform 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+    -o-transition: transform 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+    transition: transform 0.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+}@media (max-width: 767px) {
+                .mobile-sticky-footer-ad {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: white;
+                    z-index: 9;
+                }
+            }		</style>
+		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+        <style type="text/css">
+            .menu-visible-phone {
+                display: none;
+            }
+        </style>
+
+        <!-- setting a javascript varible for disable ads for bo-app/koimoi-app starts -->
+                        <script type="rocketlazyloadscript">
+                    var pattern = false;
+                </script>
+                <!-- setting a javascript varible for disable ads for bo-app/koimoi-app starts -->
+        <!-- setting a javascript varible ismobile for ads (Pravin) starts -->
+                            <script type="rocketlazyloadscript">
+                    window.addEventListener('scroll', function() {
+                        // Check if the user has scrolled to the bottom of the page
+                        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                          // Create a new script element
+                          var script = document.createElement('script');
+
+                          // Set the source of the script to your JavaScript file
+                          script.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+
+                          // Append the script element to the document body
+                          document.body.appendChild(script);
+
+                          // Remove the scroll event listener to prevent loading the script multiple times
+                          window.removeEventListener('scroll', arguments.callee);
+                        }
+                    });
+                    </script>
+                    
+            <script type="rocketlazyloadscript">
+                var mobile = true;
+            </script>
+            
+                            <!-- vignet ad starts here -->
+                    <script type="rocketlazyloadscript" async data-rocket-src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <script type="rocketlazyloadscript">
+                    </script>
+                    <!-- vignet ad ends here -->
+        
+        <meta property="fb:pages" content="338783517671" />
+        
+        <!-- DO NOT MODIFY -->
+        <!-- Quora Pixel Code (JS Helper) -->
+        <script type="rocketlazyloadscript">
+            !function (q, e, v, n, t, s) {
+                if (q.qp)
+                    return;
+                n = q.qp = function () {
+                    n.qp ? n.qp.apply(n, arguments) : n.queue.push(arguments);
+                };
+                n.queue = [];
+                t = document.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = document.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            }(window, 'script', 'https://a.quora.com/qevents.js');
+            qp('init', 'b22c1df2eb624b319b89b3d9a1ea8cb3');
+            qp('track', 'ViewContent');
+        </script>
+        <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/b22c1df2eb624b319b89b3d9a1ea8cb3/pixel?tag=ViewContent&noscript=1" /></noscript>
+        <!-- End of Quora Pixel Code -->
+
+        <!-- rp custom start -->
+        <style>
+            .td-visible-desktop,
+            .td-visible-tablet-landscape,
+            .td-visible-tablet-l,
+            .td-visible-tablet-portrait,
+            .td-visible-tablet-tp,
+            .td-visible-phone {
+                padding-bottom: 0px;
+            }
+
+            .td-post-content table {
+                display: block;
+                overflow: auto;
+            }
+
+            .hindi-nav-link {
+                padding: 0 1%;
+                background-color: #d13030 !important;
+                border-radius: 5px;
+                color: white !important;
+                margin: 0px 10px !important;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            }
+
+            .hindi-nav-link a {
+                border-radius: 5px;
+                color: white !important;
+            }
+
+            .hindi-nav-link a:hover {
+                background-color: #d13030 !important;
+                border-radius: 5px;
+                color: white !important;
+            }
+
+            .td-full-layout .td-header-style-3 .td-header-main-menu {
+                padding-left: 0px;
+            }
+
+            /* new ads css start */
+            #div-gpt-ad-8994294-1,
+            #div-gpt-ad-4983095-1,
+            #div-gpt-ad-5715095-1,
+            #div-gpt-ad-5715095-8 {
+                width: 728px;
+                height: 90px;
+            }
+
+            #div-gpt-ad-8994294-2,
+            #div-gpt-ad-4983095-2,
+            #div-gpt-ad-5715095-2 {
+                width: 160px;
+                height: 600px;
+                position: fixed;
+                left: 0;
+                top: -10%;
+                z-index: 999999;
+                cursor: pointer;
+                font-size: 10px;
+                transform: scale(0.71);
+                margin-left: -5px !important;
+            }
+
+            #div-gpt-ad-8994294-3,
+            #div-gpt-ad-4983095-3,
+            #div-gpt-ad-5715095-3 {
+                width: 160px;
+                height: 600px;
+                position: fixed;
+                right: 0;
+                top: -10%;
+                z-index: 9999;
+                cursor: pointer;
+                font-size: 10px;
+                transform: scale(0.71);
+                margin-right: -5px !important;
+            }
+
+            #div-gpt-ad-8994294-2:before,
+            #div-gpt-ad-4983095-2:before,
+            #div-gpt-ad-5715095-2:before,
+            #div-gpt-ad-8994294-3:before,
+            #div-gpt-ad-4983095-3:before,
+            #div-gpt-ad-5715095-3:before {
+                content: 'Advertisement';
+                text-transform: uppercase;
+                color: grey;
+                width: 100%;
+            }
+
+            #div-gpt-ad-8994294-4,
+            #div-gpt-ad-4983095-4,
+            #div-gpt-ad-4983095-5,
+            #div-gpt-ad-5715095-4,
+            #div-gpt-ad-5715095-6,
+            #div-gpt-ad-5715095-7,
+            #div-gpt-ad-1487885-2,
+            #div-gpt-ad-1487885-3,
+            #div-gpt-ad-8429840-1,
+            #div-gpt-ad-8429840-2,
+            #div-gpt-ad-9017877-2,
+            #div-gpt-ad-9017877-3,
+            #div-gpt-ad-9017877-4,
+            #div-gpt-ad-9017877-5,
+            #div-gpt-ad-9017877-6,
+            #div-gpt-ad-1749155-1 {
+                width: 300px;
+                height: 250px;
+            }
+
+            #div-gpt-ad-8994294-5,
+            #div-gpt-ad-5715095-5 {
+                width: 300px;
+                height: 600px;
+            }
+
+            #div-gpt-ad-1487885-1 {
+                width: 320px;
+                height: 100px;
+            }
+
+            #div-gpt-ad-1631195289866-0,
+            #div-gpt-ad-1631195346735-0,
+            #div-gpt-ad-1631195388725-0 {
+                width: 320px;
+                height: 50px;
+            }
+
+            @media (max-width: 767px) {
+                .mobile-sticky-footer-ad {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: white;
+                    z-index: 9;
+                }
+            }
+
+            /* new ads css end */
+
+            #ATD_KM_728x90_D_HP_TOP,
+            #ATD_KM_728x90_D_AP_TOP,
+            #ATD_KM_160x600_D_HP_LHS,
+            #ATD_KM_160x600_D_SP_LHS,
+            #ATD_KM_160x600_D_AP_LHS,
+            #ATD_KM_160x600_D_HP_RHS,
+            #ATD_KM_160x600_D_SP_RHS,
+            #ATD_KM_160x600_D_AP_RHS,
+            #ATD_KM_300x250_D_AP_INR,
+            #ATD_KM_728x90_D_AP_EOA,
+            #div-gpt-ad-300x250-1,
+            #div-gpt-ad-300x600-1,
+            #div-gpt-ad-300x600-2,
+            #ATD_KM_320x50_M_HP_TOP,
+            #ATD_KM_320x100_M_AP_INR1,
+            #ATD_KM_320x100_M_AP_INR2,
+            #ATD_KM_320x100_M_AP_INR3,
+            #ATD_KM_300x250_M_AP_EOA,
+            #ATD_KM_300x250_M_AP_BTF,
+            #ATD_KM_300x250_M_SP_INR1,
+            #ATD_KM_300x250_M_SP_INR2,
+            #ATD_KM_300x250_M_SP_INR3,
+            #div-gpt-ad-300x250-hp-p1,
+            #div-gpt-ad-300x250-hp-p2,
+            #div-gpt-ad-300x250-ap-atf,
+            #div-gpt-ad-300x250-ap-inr1,
+            #div-gpt-ad-300x250-ap-btf,
+            #div-gpt-ad-300x250-sp-p1,
+            #div-gpt-ad-300x250-sp-p2,
+            #div-gpt-ad-300x250-sp-p3 {
+                height: auto;
+            }
+
+            /* .sf-menu > li > a {
+              padding: 0px 11px!important;
+            } */
+            #ATD_KM_160x600_D_HP_LHS,
+            #ATD_KM_160x600_D_SP_LHS,
+            #ATD_KM_160x600_D_AP_LHS {
+                width: 160px;
+                position: fixed;
+                left: 0;
+                top: 10%;
+                height: 637px;
+                z-index: 999999;
+                cursor: pointer;
+                transform: scale(0.71);
+                margin-left: -5px !important;
+            }
+
+            #ATD_KM_160x600_D_HP_RHS,
+            #ATD_KM_160x600_D_SP_RHS,
+            #ATD_KM_160x600_D_AP_RHS {
+                width: 160px;
+                position: fixed;
+                right: 0;
+                top: 10%;
+                height: 637px;
+                z-index: 999;
+                cursor: pointer;
+                transform: scale(0.71);
+                margin-right: -5px !important;
+            }
+
+            #ATD_KM_160x600_D_HP_LHS:before,
+            #ATD_KM_160x600_D_SP_LHS:before,
+            #ATD_KM_160x600_D_AP_LHS:before,
+            #ATD_KM_160x600_D_HP_RHS:before,
+            #ATD_KM_160x600_D_SP_RHS:before,
+            #ATD_KM_160x600_D_AP_RHS:before {
+                content: 'Advertisement';
+                text-transform: uppercase;
+                color: grey;
+                width: 100%;
+            }
+
+            /*advertisement border start*/
+            .ad-wrapper-border {
+                text-align: center;
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                padding: 0px 0px 5px 0px;
+                margin: 10px auto 10px auto !important;
+                display: table;
+                transition: 1s;
+            }
+            
+            .ad-wrapper-height{
+                height: 300px;
+            }
+
+
+            .ad-heading {
+                font-size: 10px !important;
+                color: grey;
+                text-transform: uppercase;
+                margin: 0 !important;
+                line-height: 15px !important;
+            }
+
+            .td-header-style-3 .td-header-sp-recs .ad-wrapper-border{
+                margin: 0px auto 0px auto !important;
+            }
+
+            @media (max-width: 767px) {
+                .mobile-sticky-footer-ad .ad-wrapper-border {
+                    margin: 0px auto 0px auto !important;
+                }
+            }
+
+            /*advertisement border end*/
+            .td-a-rec-id-post_style_12>div,
+            .td-a-rec-id-content_top>div,
+            .td-a-rec-id-content_bottom>div {
+                margin-bottom: 0;
+            }
+
+            #tablepress-12 .column-2,
+            #tablepress-32 .column-2 {
+                text-align: right;
+                width: 90px;
+            }
+
+            iframe[data-src^='https://www.instagram.com'] {
+                height: 520px;
+            }
+
+            iframe[src^='https://www.facebook.com/'] {
+                width: 100%;
+                height: 390px;
+            }
+
+            iframe[data-src^='https://docs.google.com'] {
+                width: 100%;
+            }
+
+            .td-author-counters .td-author-comments-count {
+                display: none;
+            }
+
+            /* footer social-mobile icons start */
+            aside.footer-social-wrap.td-social-style-2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+            }
+
+            .applications-download-wrapper {
+                text-align: right;
+            }
+
+            .applications-download-wrapper a {
+                font-size: 17px;
+                margin: 0 0 10px 10px;
+            }
+
+            .footer-social-network-wrapper {
+                text-align: left;
+            }
+
+            .footer-social-network-wrapper p {
+                margin-bottom: 0px;
+            }
+
+            .footer-social-network-wrapper p,
+            .applications-download-wrapper p {
+                font-size: 12px;
+                display: none;
+            }
+
+            .applications-download-wrapper .fa-android:hover {
+                color: #3DDC84;
+                text-decoration: none;
+            }
+
+            .applications-download-wrapper .fa-apple:hover {
+                color: grey;
+                text-decoration: none;
+            }
+
+            .td-social-style-2 .td-icon-font {
+                font-size: 14px;
+                width: 0px;
+                height: 0px;
+                display: inline;
+                line-height: 40px;
+                background-color: rgba(255, 255, 255, 0.03);
+                position: relative;
+            }
+
+            .td-social-style-2 .td-social-icon-wrap {
+                margin: 0px 10px 0px 0;
+                display: inline-block;
+            }
+
+            .td-footer-wrapper a:hover {
+                text-decoration: none;
+            }
+
+            @media (max-width: 767px) {
+                aside.footer-social-wrap.td-social-style-2 {
+                    padding: 0 10px;
+                }
+            }
+
+            /* footer social-mobile icons end */
+
+            /* comments section start */
+            #reply-title {
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 5px;
+                margin-top: 0;
+                color: #007cba;
+            }
+
+            .comments .td-form-comment,
+            .comments .td-form-author,
+            .comments .td-form-email,
+            .comments .td-form-url {
+                margin-top: 0;
+                margin-bottom: 5px;
+            }
+
+            @media (max-width: 376px) {
+                #commentform .gglcptch {
+                    min-height: 148px !important;
+                }
+            }
+
+            #commentform .gglcptch.gglcptch_v2 {
+                padding: 0 0 0 0;
+                margin: 0 0 3px;
+                min-height: 78px;
+            }
+
+            .comments .comment-form .submit {
+                background-color: #007cba;
+            }
+
+            .single .comments {
+                margin-top: 0;
+            }
+
+            textarea#comment {
+                height: unset;
+                min-height: unset;
+            }
+
+            .single .comments {
+                margin-bottom: 0px;
+            }
+
+            .comment-respond {
+                margin-bottom: 0;
+            }
+
+            /* comments section end */
+            /* menu design start */
+            .sf-menu ul .td-menu-item>a:hover,
+            .sf-menu ul .sfHover>a,
+            .sf-menu ul .current-menu-ancestor>a,
+            .sf-menu ul .current-category-ancestor>a,
+            .sf-menu ul .current-menu-item>a {
+                background-color: white;
+            }
+
+            /* menu deisgn end */
+            /* author box start */
+            .d-flex {
+                display: flex;
+            }
+
+            .author-box-wrap.td-author-page .d-flex {
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .author-box-wrap.td-author-page .author-tagline {
+                margin-top: 0;
+            }
+
+            .td-author-counters {
+                margin: 0;
+            }
+
+            .td-author-counters span {
+                display: inline-block;
+            }
+
+            .author-box-wrap .td-author-social a {
+                margin: 0;
+            }
+
+            .desktop-author {
+                display: block;
+            }
+
+            .mobile-author {
+                display: none;
+            }
+
+            @media (max-width: 767px) {
+                .desktop-author {
+                    display: none;
+                }
+
+                .mobile-author {
+                    display: block;
+                    border: 1px solid #ededed;
+                    padding: 10px;
+                    margin-bottom: 24px;
+                }
+
+                .mobile-author .td-author-social .td-social-icon-wrap .td-icon-font {
+                    width: unset;
+                    height: unset;
+                    font-size: 15px;
+                    margin-right: 5px;
+                    color: black;
+                }
+
+                .mobile-author .desc {
+                    padding-left: 3%;
+                }
+
+                .mobile-author .author-description {
+                    padding-top: 3%;
+                    font-size: 16px;
+                }
+
+                .mobile-author .avatar {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                }
+
+                .td-author-counters {
+                    margin-bottom: 10px;
+                }
+            }
+
+            /* author box end */
+
+            /* upcoming-movies/audience poll sidebar start */
+            .home-upcoming-moives-sidebar {
+                margin-bottom: 10px !important;
+                min-height: 500px;
+            }
+
+            .home-upcoming-moives-sidebar .flexslider {
+                display: none;
+                margin: 0;
+            }
+
+            .home-upcoming-moives-sidebar .flexslider .flex-caption .post-title {
+                font-size: 15px;
+                line-height: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                margin: 0;
+            }
+
+            .home-upcoming-moives-sidebar .flexslider .flex-caption .post-title a:hover {
+                text-decoration: none;
+                color: black;
+            }
+
+            .home-upcoming-moives-sidebar .flexslider .flex-caption p {
+                display: none;
+            }
+
+            .sidebar-polls-slider {
+                margin-bottom: 10px !important;
+                min-height: 280px;
+            }
+
+            .sidebar-polls-slider .flexslider {
+                display: none;
+                margin: 0;
+            }
+
+            .sidebar-polls-slider .flexslider .flex-caption .post-title {
+                font-size: 15px;
+                line-height: 20px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                margin: 0;
+            }
+
+            .sidebar-polls-slider .flexslider .flex-caption .post-title a:hover {
+                text-decoration: none;
+                color: black;
+            }
+
+            .sidebar-polls-slider .flexslider .flex-caption p {
+                display: none;
+            }
+
+            @media (max-width: 767px) {
+                .home-upcoming-moives-sidebar {
+                    min-height: 596px;
+                }
+
+                .sidebar-polls-slider {
+                    min-height: 322px;
+                }
+            }
+
+            /* upcoming-movies/audience poll sidebar end */
+
+            /* upcoming-movies/homepage-carousel owl start */
+            .homepage-carousel .owl-nav,
+            .recent-movies-carousel .owl-nav,
+            .upcoming-movies-carousel .owl-nav {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .homepage-carousel .owl-stage-outer,
+            .recent-movies-carousel .owl-stage-outer,
+            .upcoming-movies-carousel .owl-stage-outer {
+                z-index: 1;
+            }
+
+            .homepage-carousel .owl-nav button,
+            .recent-movies-carousel .owl-nav button,
+            .upcoming-movies-carousel .owl-nav button {
+                z-index: 2;
+                outline: none !important;
+            }
+
+            .homepage-carousel .owl-nav button span,
+            .recent-movies-carousel .owl-nav button span,
+            .upcoming-movies-carousel .owl-nav button span {
+                background-color: white;
+                font-size: 30px;
+                display: flex;
+                align-items: center;
+                padding: 0 5px 5px 5px;
+                height: 30px;
+            }
+
+            .homepage-carousel .owl-nav button span {
+                margin-bottom: 55px;
+            }
+
+            .recent-movies-carousel .owl-nav button span {
+                margin-bottom: 75px;
+            }
+
+            .homepage-carousel .owl-nav .owl-prev span,
+            .recent-movies-carousel .owl-nav .owl-prev span,
+            .upcoming-movies-carousel .owl-nav .owl-prev span {
+                border-radius: 0 5px 5px 0;
+                box-shadow: 4px 0px 4px #0000001c;
+            }
+
+            .homepage-carousel .owl-nav .owl-next span,
+            .recent-movies-carousel .owl-nav .owl-next span,
+            .upcoming-movies-carousel .owl-nav .owl-next span {
+                border-radius: 5px 0 0 5px;
+                box-shadow: -4px 0px 4px #0000001c;
+            }
+
+            .homepage-carousel .owl-item img,
+            .recent-movies-carousel .owl-item img {
+                height: 100px;
+                object-fit: cover;
+            }
+
+            .upcoming-movies-carousel .owl-item img {
+                height: auto;
+                object-fit: cover;
+            }
+
+            .upcoming-movies-carousel-section {
+                min-height: 496px;
+            }
+
+            .upcoming-movies-carousel .card-body .card-title {
+                font-size: 14px;
+                font-weight: bold;
+                margin: 10px 0;
+                color: #111111;
+                line-height: normal;
+            }
+
+            .homepage-carousel .card-title,
+            .recent-movies-carousel .card-title {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                color: #111111;
+            }
+
+            .homepage-carousel .card a:hover,
+            .recent-movies-carousel .card a:hover {
+                text-decoration: none;
+            }
+
+            .homepage-carousel .card a:hover .card-title,
+            .recent-movies-carousel .card a:hover .card-title {
+                color: #d13030;
+            }
+
+            .home-page-carousel-section {
+                min-height: 168px;
+                max-height: 168px;
+                height: 168px;
+            }
+
+            .recent-movies-carousel {
+                min-height: 180px;
+            }
+
+            .movies_slider_mobile {
+                display: none;
+            }
+
+            @media (max-width: 767px) {
+                .movies_slider_mobile {
+                    display: flex;
+                    overflow: auto;
+                }
+
+                .movies_slider_mobile .card {
+                    margin: 0 8px 8px 8px;
+                    box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+                    border-radius: 5px;
+                }
+
+                .movies_slider_mobile .card .card-img-top {
+                    min-width: 60vw;
+                    width: 60vw;
+                    height: 150px;
+                    object-fit: cover;
+                    border-radius: 5px 5px 0 0;
+                    margin: 0;
+                    display: block;
+                }
+
+                .movies_slider_mobile .card-title {
+                    padding: 0 10px;
+                    margin: 6px 0 6px 0 !important;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    color: #111111;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.1;
+                }
+
+                .movies_slider_mobile .card a {
+                    text-decoration: none;
+                }
+
+                .movies_slider_mobile .card a:hover .card-title {
+                    color: #d13030;
+                }
+
+                .home-page-carousel-section,
+                .recent-movies-carousel {
+                    display: none !important;
+                }
+
+                .upcoming-movies-carousel .owl-item img {
+                    height: auto;
+                }
+            }
+
+            /* upcoming-movies/homepage-carousel owl end */
+            /* old trending section start */
+            #trending-append ul {
+                list-style: none;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            #trending-append ul li {
+                margin-left: 0;
+            }
+
+            #trending-append ul li a {
+                color: #111111 !important;
+                background-color: white !important;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+            }
+
+            #trending-append ul li span {
+                background-color: white !important;
+                color: #111111 !important;
+            }
+
+            @media (max-width: 767px) {
+                #trending-append ul li a {
+                    font-size: 14px;
+                }
+            }
+
+            /* old trending section end */
+
+            .td-post-content .trending-thumbnail-content a:hover {
+                color: #d13030;
+                text-decoration: underline;
+            }
+
+            .trending-thumbnail-image:hover+.trending-thumbnail-content a {
+                color: #d13030;
+                text-decoration: underline;
+            }
+
+            .subtitle {
+                font-size: 19px;
+                line-height: 1.1;
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+
+            .td-page-title {
+                margin: 0px 0 19px 0;
+            }
+
+            iframe.instagram-media {
+                max-width: 540px !important;
+                margin: 0px auto 12px auto !important;
+            }
+
+            .twitter-tweet.twitter-tweet-rendered {
+                margin: 10px auto;
+            }
+
+            @media (max-width: 767px) {
+
+                iframe.instagram-media {
+                    max-width: 100% !important;
+                }
+
+                #div-gpt-ad-300x250-ap-atf {
+                    height: 345px !important;
+                }
+
+            }
+
+            .td-footer-wrapper .block-title a,
+            .td-footer-wrapper .block-title span,
+            .td-footer-wrapper .block-title label {
+                display: none;
+            }
+
+            a {
+                color: #d13030;
+                text-decoration: none;
+            }
+
+            .block-title,
+            .td-related-title,
+            .wpb_tabs .wpb_tabs_nav,
+            .woocommerce div.product .woocommerce-tabs ul.tabs:before {
+                border-color: #d13030;
+            }
+
+            #breadcrumbs a {
+                color: #d13030;
+            }
+
+            .td-trending-now-title {
+                background-color: #d13030;
+            }
+
+            .tablepress a {
+                color: #d13030;
+            }
+
+            #taboola-carousel-homepage-thumbs {
+                min-height: 243px;
+            }
+
+            .fsrs-stars svg path {
+                fill: gold;
+            }
+
+            .fsrs .fsrs-text {
+                display: none;
+            }
+
+            @media (max-width: 767px) {
+                body {
+                    padding-bottom: 70px !important;
+                }
+
+                #div-gpt-ad-320x50--hdr {
+                    display: none;
+                }
+
+                iframe[data-src^='https://www.youtube.com'] {
+                    width: 100%;
+                    height: 53vw;
+                }
+
+                iframe[src^='https://www.facebook.com/'] {
+                    width: 100%;
+                    height: 220px;
+                }
+
+                .comment-pagination {
+                    margin-left: 0%;
+                    margin-right: 0%;
+                }
+
+                .td-post-content img {
+                    display: block !important;
+                }
+
+                .movie-image {
+                    padding-right: 10px;
+                    float: left;
+                }
+
+                .td-md-is-android .td-trending-now-display-area,
+                .td-trending-now-post,
+                .td-trending-now-display-area .td_module_trending_now .entry-title,
+                .td-trending-now-display-area .td_module_trending_now .entry-title a,
+                .td-md-is-ios .td-trending-now-display-area {
+                    height: 44px;
+                    overflow: initial;
+                }
+
+                #taboola-carousel-homepage-thumbs {
+                    min-height: 250px;
+                }
+
+                .fsrs {
+                    display: block;
+                }
+
+            }
+
+            @media only screen and (max-width: 1360px) {
+
+                #ATD_KM_160x600_D_HP_LHS,
+                #ATD_KM_160x600_D_SP_LHS,
+                #ATD_KM_160x600_D_AP_LHS,
+                #ATD_KM_160x600_D_HP_RHS,
+                #ATD_KM_160x600_D_SP_RHS,
+                #ATD_KM_160x600_D_AP_RHS {
+                    transform: scale(0.85);
+                }
+
+            }
+            
+            .td-mobile-content .sub-menu .td-icon-menu-right {
+                top: 16px !important;
+                color: #000 !important;
+            }
+            
+            .sf-menu li {
+                margin: -2px;
+            }
+            
+            .team-social {
+                padding-bottom: 15px;
+            }
+            
+            .team-social a i {
+                width: 30px;
+                height: 30px;
+                align-items: center;
+                justify-content: center;
+                display: inline-flex;
+                border-radius: 5px;
+                color: #000;
+                margin: 5px 0px 5px 0px;
+            }
+            
+            .team-social a:hover{
+                text-decoration: none;
+                border-radius: 5px;
+            }
+
+            .team-social i.fa-facebook{
+                background-color: #3a579a;
+                color: #fff;
+            }
+            .team-social i.fa-twitter{
+                background-color: #01abf0;
+                color: #fff;
+            }
+            .team-social i.fa-whatsapp{
+                background-color: #1d9d10;
+                color: #fff;
+            }
+            
+            .td_block_related_posts {
+                padding-top: 20px;
+            }
+            
+            .td_module_mx8 .td-post-category {
+                background-color: rgba(255,255,255,.8) !important;
+                color: #d13030 !important;
+            }
+            
+            @media (max-width: 500px){
+                .td_block_inner .td_module_mx2 .entry-title {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+
+            .td_module_6 .entry-title {
+                height: 56px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            .td_module_wrap .entry-title {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;  
+                overflow: hidden;
+            }
+            .td_module_mx2 .item-details {
+                margin: 0 0 20px 116px;
+                min-height: 60px;
+                padding-top: 2px;
+            }
+
+            .td_module_mx2 .entry-title {
+                line-height: 18px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                letter-spacing: 0.5px;
+            }
+
+            .koimoi-block-18 h3 {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                font-size: 21px;
+            }
+
+            .koimoi-block-18-item a {
+                padding:0;
+            }
+
+            .td_block_18 .td-column-1 .td_module_mx8 .td-post-category {
+                position: absolute;
+                bottom: 3px;
+                left: 4px;
+            }
+
+            @media (max-width: 767px){
+                .td-post-category {
+                    font-family: "Open Sans", arial, sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 2;
+                    background-color: rgba(255, 255, 255, .8) !important;
+                    color: #d13030;
+                    margin-right: 5px;
+                    padding: 2px 2px;
+                    display: block;
+                    vertical-align: middle;
+                    text-transform: uppercase;
+                }
+
+                .td_module_10 .entry-title {
+                    line-height: 20px;
+                    margin-bottom: 14px;
+                }
+
+                .td_module_6 .entry-title {
+                    font-size: 14px;
+                    height: 48px;
+                    line-height: 21px;
+                }
+                .td_module_wrap .entry-title {
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+                .td_block_18 .td_module_mx2 .item-details .entry-title {
+                    margin-bottom: 14px;
+                    line-height: 20px;
+                }
+                .td_block_18 .td-column-1 .td_module_mx8 .td-module-thumb {
+                    margin-bottom: 20px;
+                }
+                .td_block_related_posts .td-module-title {
+                    font-size: 17px;
+                    line-height: 18px;
+                    margin-bottom: 6px;
+                    height: 42px;
+                }
+                .td_module_related_posts .entry-title a {
+                    -webkit-line-clamp: 2 !important;
+                }
+            }
+
+            @media screen and (max-width: 767px){
+                header .td-module-meta-info {
+                    display: grid;
+                }
+
+                .td-post-template-2 .td-post-title .td-post-date {
+                     margin-top: 0;
+                }
+            }
+
+            @media screen and (max-width: 767px){
+                .koimoi-related-hide-cat-mob .td-post-category {
+                    display: none;
+                }
+            }
+
+            @media screen and (min-width: 992px){
+                .koimoi-related-hide-cat-desktop .td-post-category {
+                    display: none;
+                }
+            }
+        </style>
+        <!-- rp custom end -->
+    </head>
+
+    <body class="page-template-default page page-id-518374 upcoming-movies global-block-template-1 wpb-js-composer js-comp-ver-7.8 vc_responsive td-full-layout" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+        
+        <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+
+        <style type="text/css">
+    .agentMenu .hideMenu{
+      display: none;
+    }
+
+   .koimoiMenu .hideKoimoi{
+      display: none;
+    }
+    .showMenuKoimoi {
+        display: none;
+    }
+     .koimoiMenu .showMenuKoimoi{
+      display: block;
+    }
+
+</style>
+<div class="td-menu-background"></div>
+<div id="td-mobile-nav">
+    <!-- mobile menu close -->
+            <div class="td-mobile-close">
+                <a href="#"><i class="td-icon-close-mobile"></i></a>
+            </div>
+    <div class="td-mobile-content">
+        <div class="menu-main-menu-container"><ul id="menu-main-menu" class="td-mobile-main-menu "><li id="menu-item-383333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first menu-item-383333"><a>Box Office<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-400090" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400090"><a href="https://www.koimoi.com/category/box-office/">Daily BO Update</a></li>
+	<li id="menu-item-649449" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-649449"><a href="https://www.koimoi.com/category/box-office/daily-breakdown/">Daily Breakdown</a></li>
+	<li id="menu-item-396935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-396935"><a href="https://www.koimoi.com/category/box-office/hits-flops/">Hits &#038; Flops</a></li>
+	<li id="menu-item-524035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-524035"><a href="https://www.koimoi.com/category/box-office/all-time-grossers/">All Time Grossers</a></li>
+	<li id="menu-item-383336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383336"><a href="https://www.koimoi.com/category/box-office/highest-grossers/">Highest Grossers</a></li>
+	<li id="menu-item-532935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-532935"><a href="https://www.koimoi.com/uncategorized/top-30-highest-opening-bollywood-movies-of-all-time/">Highest Openers</a></li>
+	<li id="menu-item-383338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383338"><a href="https://www.koimoi.com/category/box-office/highest-weekend/">Highest Weekend</a></li>
+	<li id="menu-item-383335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383335"><a href="https://www.koimoi.com/box-office/top-10-highest-grossing-bollywood-films-in-overseas/">Best of Overseas</a></li>
+	<li id="menu-item-500453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-500453"><a href="https://www.koimoi.com/category/box-office/hollywood-highest/">Hollywood Highest</a></li>
+	<li id="menu-item-762442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762442"><a href="https://www.koimoi.com/category/box-office/fact-o-meter/">Fact-o-meter</a></li>
+</ul>
+</li>
+<li id="menu-item-397920" class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-397920"><a>News &#038; Gossip<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-780082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-780082"><a href="https://www.koimoi.com/category/entertainment-news/">Entertainment News</a></li>
+	<li id="menu-item-426622" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-426622"><a href="https://www.koimoi.com/category/bollywood-news/">Bollywood News</a></li>
+	<li id="menu-item-426623" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426623"><a href="https://www.koimoi.com/category/south-indian-cinema/">South</a></li>
+	<li id="menu-item-426624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426624"><a href="https://www.koimoi.com/category/television/">Television &#038; Web</a></li>
+	<li id="menu-item-1031588" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1031588"><a href="https://www.koimoi.com/category/korean/">Korean</a></li>
+	<li id="menu-item-426625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-426625"><a href="https://www.koimoi.com/category/fashion-lifestyle/">Fashion &#038; Lifestyle</a></li>
+	<li id="menu-item-567939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-567939"><a href="https://www.koimoi.com/category/bigg-boss/">Bigg Boss</a></li>
+	<li id="menu-item-405936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405936"><a title="Bollywood Celebs &#8211; Interviews" href="https://www.koimoi.com/category/bollywood-interviews/">Interviews</a></li>
+	<li id="menu-item-762444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762444"><a href="https://www.koimoi.com/category/wwe/">WWE</a></li>
+</ul>
+</li>
+<li id="menu-item-762443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762443"><a href="https://www.koimoi.com/category/hollywood-news/">Hollywood News</a></li>
+<li id="menu-item-1057861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1057861"><a href="https://www.koimoi.com/category/what-to-watch/">What To Watch</a></li>
+<li id="menu-item-383479" class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-383479"><a>Reviews<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-397922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-397922"><a href="https://www.koimoi.com/category/bollywood-movies/movie-reviews/">Bollywood Movie Reviews</a></li>
+	<li id="menu-item-762445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762445"><a href="https://www.koimoi.com/category/reviews/hollywood-movie-reviews/">Hollywood Movie Reviews</a></li>
+	<li id="menu-item-762446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-762446"><a href="#">South Indian Movie Reviews<i class="td-icon-menu-right td-element-after"></i></a>
+	<ul class="sub-menu">
+		<li id="menu-item-953096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-953096"><a href="https://www.koimoi.com/category/reviews/south-indian-movie-reviews/">All South Movie Reviews</a></li>
+		<li id="menu-item-950735" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950735"><a href="https://www.koimoi.com/category/reviews/tamil-movie-reviews/">Tamil Movie Reviews</a></li>
+		<li id="menu-item-950736" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950736"><a href="https://www.koimoi.com/category/reviews/telugu-movie-reviews/">Telugu Movie Reviews</a></li>
+		<li id="menu-item-950733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950733"><a href="https://www.koimoi.com/category/reviews/kannada-movie-reviews/">Kannada Movie Reviews</a></li>
+		<li id="menu-item-950734" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-950734"><a href="https://www.koimoi.com/category/reviews/malayalam-movie-reviews/">Malayalam Movie Reviews</a></li>
+	</ul>
+</li>
+	<li id="menu-item-906223" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-906223"><a href="https://www.koimoi.com/category/reviews/marathi-movie-reviews/">Marathi Movie Reviews</a></li>
+	<li id="menu-item-525699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-525699"><a href="https://www.koimoi.com/category/reviews/web-reviews/">Web Series Reviews</a></li>
+	<li id="menu-item-383480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383480"><a href="https://www.koimoi.com/category/music-reviews/">Music Reviews</a></li>
+	<li id="menu-item-562850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-562850"><a href="https://www.koimoi.com/category/reviews/box-office-reviews/">Box Office Reviews</a></li>
+	<li id="menu-item-628657" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-628657"><a href="https://www.koimoi.com/category/reviews/trailer-reviews/">Trailer Reviews</a></li>
+</ul>
+</li>
+<li id="menu-item-1080664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1080664"><a href="https://www.koimoi.com/category/cricket/">Cricket</a></li>
+<li id="menu-item-515569" class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-515569"><a>Power Index<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-559711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-559711"><a href="https://www.koimoi.com/category/box-office-filmometer/">BO Filmometer</a></li>
+	<li id="menu-item-559712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-559712"><a href="https://www.koimoi.com/box-office/bollywood-box-office-power-index/">Stars&#8217; Power Index</a></li>
+	<li id="menu-item-559713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-559713"><a href="https://www.koimoi.com/category/box-office/directors-box-office-ranking/">Directors&#8217; Power Index</a></li>
+	<li id="menu-item-383337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383337"><a href="https://www.koimoi.com/box-office/bollywoods-100-crore-club/">100 Crore Club</a></li>
+	<li id="menu-item-398773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-398773"><a href="https://www.koimoi.com/box-office/bollywoods-top-worldwide-grossers/">Worldwide 200 Crores+</a></li>
+	<li id="menu-item-398774" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-398774"><a href="https://www.koimoi.com/category/box-office/profitable-films/">Profitable Films</a></li>
+</ul>
+</li>
+<li id="menu-item-648885" class="hideMenu menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-648885"><a>Library<i class="td-icon-menu-right td-element-after"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-648887" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-648887"><a href="#">Movies<i class="td-icon-menu-right td-element-after"></i></a>
+	<ul class="sub-menu">
+		<li id="menu-item-762447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762447"><a href="https://www.koimoi.com/koimoi-library/koimoi-library-recommended-movies-on-ott/">Recommended Movies</a></li>
+		<li id="menu-item-762448" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-762448"><a href="https://www.koimoi.com/upcoming-movies/">Upcoming Movies</a></li>
+		<li id="menu-item-762449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762449"><a href="https://www.koimoi.com/released-movies/">Released Movies</a></li>
+	</ul>
+</li>
+	<li id="menu-item-762450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-762450"><a href="https://www.koimoi.com/category/trivia/">Trivia</a></li>
+	<li id="menu-item-1057862" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1057862"><a href="https://www.koimoi.com/web-stories/">Web Stories</a></li>
+</ul>
+</li>
+<li id="menu-item-451772" class="menu-visible-phone menu-item menu-item-type-post_type menu-item-object-page menu-item-451772"><a href="https://www.koimoi.com/about-us/">About Koimoi</a></li>
+<li id="menu-item-888618" class="menu-visible-phone menu-item menu-item-type-post_type menu-item-object-page menu-item-888618"><a href="https://www.koimoi.com/careers/">Careers</a></li>
+</ul></div>        <a href="#"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="menu-visible-phone app-download hideMenu hideKoimoi menu-item menu-item-type-custom menu-item-object-custom" style="vertical-align: middle;" data-lazy-src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2017/08/Never-miss-an-update-new-02.png"><noscript><img src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2017/08/Never-miss-an-update-new-02.png" class="menu-visible-phone app-download hideMenu hideKoimoi menu-item menu-item-type-custom menu-item-object-custom" style="vertical-align: middle;"></noscript></a>
+    </div>
+</div>
+<div class="td-search-background"></div>
+<div class="td-search-wrap-mob">
+	<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+		<form method="get" class="td-search-form" action="https://www.koimoi.com/">
+			<!-- close button -->
+			<div class="td-search-close">
+				<a href="#"><i class="td-icon-close-mobile"></i></a>
+			</div>
+			<div role="search" class="td-search-input">
+				<span>Search</span>
+				<input id="td-header-search-mob" type="text" value="" name="s" autocomplete="off" />
+			</div>
+		</form>
+		<div id="td-aj-search-mob"></div>
+	</div>
+</div>
+        <style>
+            @media (max-width: 767px) {
+                .td-header-desktop-wrap {
+                    display: none;
+                }
+            }
+            @media (min-width: 767px) {
+                .td-header-mobile-wrap {
+                    display: none;
+                }
+            }
+            @media (min-width: 1500px) {
+                .td-full-layout .td-header-style-3 .td-header-main-menu {
+                    width: fit-content;
+                }
+            }
+
+            .dailymotion-icon {
+                display: flex !important;
+            }
+
+            .dailymotion-icon img {
+                width: 13px;
+                height: 13px;
+            }
+
+
+            .btn-whatsup {
+                background-color: #fff;
+                display: inline-block;
+            }
+
+            .btn-whatsup li {
+                list-style: none;
+                display: inline-block;
+                padding: 2px 0px;
+                margin-left: 10px;
+                border: 1px solid #595959;
+                border-radius: 4px;
+            }
+
+            .btn-whatsup li img{
+                  width: 25px;
+                margin-right: 3px;
+                height: 25px;
+            }
+
+            .btn-whatsup li a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #000;
+                padding: 0px 8px;
+            }
+
+            .btn-whatsup ul {
+                margin: 0;
+            }
+
+            header .td-module-meta-info {
+                display: flex;
+                align-items: center;
+            }
+
+            @media screen and (max-width: 991px) {
+                header .td-module-meta-info {
+                    display: inline-block;
+                }
+                .btn-whatsup li{
+                    margin-left: 0;
+                }
+                .btn-whatsup {
+                    background-color: #fff;
+                    display: inline-block;
+                    margin: 15px 0px;
+                }
+            }
+        </style>
+        
+        <div class="pageHolder" id="page-background" style="position:relative; top:0px;">
+            <!-- Main Holder Start-->
+            <div class="mainHolder">
+                <div class="contentHolder">
+                    <script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+                        jQuery(document).ready(function () {
+                            if (pattern == true) {
+                                jQuery(".user-agent").css({
+                                    "display": "none"
+                                });
+                                jQuery(".user-agent").parent('div').css({
+                                    "display": "none"
+                                });
+                            }
+                        });
+                    </script>
+                    
+                <!--
+Header style 3
+-->
+
+
+<div class="td-header-wrap td-header-style-3 ">
+    
+    <div class="td-header-top-menu-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-top-menu">
+            <!-- LOGIN MODAL -->
+
+                <div  id="login-form" class="white-popup-block mfp-hide mfp-with-anim">
+                    <div class="td-login-wrap">
+                        <a href="#" class="td-back-button"><i class="td-icon-modal-back"></i></a>
+                        <div id="td-login-div" class="td-login-form-div td-display-block">
+                            <div class="td-login-panel-title">Sign in</div>
+                            <div class="td-login-panel-descr">Welcome! Log into your account</div>
+                            <div class="td_display_err"></div>
+                            <div class="td-login-inputs"><input class="td-login-input" type="text" name="login_email" id="login_email" value="" required><label>your username</label></div>
+	                        <div class="td-login-inputs"><input class="td-login-input" type="password" name="login_pass" id="login_pass" value="" required><label>your password</label></div>
+                            <input type="button" name="login_button" id="login_button" class="wpb_button btn td-login-button" value="Login">
+                            <div class="td-login-info-text"><a href="#" id="forgot-pass-link">Forgot your password? Get help</a></div>
+                            
+                            
+                            
+                            
+                        </div>
+
+                        
+
+                         <div id="td-forgot-pass-div" class="td-login-form-div td-display-none">
+                            <div class="td-login-panel-title">Password recovery</div>
+                            <div class="td-login-panel-descr">Recover your password</div>
+                            <div class="td_display_err"></div>
+                            <div class="td-login-inputs"><input class="td-login-input" type="text" name="forgot_email" id="forgot_email" value="" required><label>your email</label></div>
+                            <input type="button" name="forgot_button" id="forgot_button" class="wpb_button btn td-login-button" value="Send My Password">
+                            <div class="td-login-info-text">A password will be e-mailed to you.</div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                        </div>
+    </div>
+
+    <div class="td-banner-wrap-full td-container-wrap ">
+        <div class="td-container td-header-row td-header-header">
+            <div class="td-header-sp-logo">
+                        <a class="td-main-logo" href="https://www.koimoi.com/">
+            <img class="td-retina-data" data-retina="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_black_desktop.jpg" src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_black_desktop.jpg" alt=""/>
+            <span class="td-visual-hidden">Koimoi</span>
+        </a>
+                </div>
+                            <div class="td-header-sp-recs">
+                        <div class="td-header-rec-wrap" id="header_ad">
+            </div>
+
+    <!-- GPT AdSlot 1 for Ad unit 'Koimoi_Desktop_HP_Top_728x90' ### Size: [[728,90]] -->
+    <!-- GPT AdSlot 1 for Ad unit 'Koimoi_Desktop_SP_Top_728x90' ### Size: [[728,90]] -->
+    <!-- GPT AdSlot 1 for Ad unit 'Koimoi_Desktop_AP_Top_728x90' ### Size: [[728,90]] -->
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript" async>
+        if (/iPhone|Android|iPod|Blackberry|Palm|Mobile|AvantGo|Docomo/i.test(navigator.userAgent)) {
+            // mobile ad
+            $("#header_ad").remove();
+        } else {
+            // desktop ad
+            var ad = '&lt;div class=&quot;ad-wrapper-border&quot;&gt;                                &lt;p class=&quot;ad-heading&quot;&gt;Advertisement&lt;/p&gt;                                &lt;div id=&quot;div-gpt-ad-5715095-1&quot;&gt;&lt;/div&gt;                                &lt;script&gt;                                    window.googletag = window.googletag || {cmd: []};                                    googletag.cmd.push(function () {                                        googletag.defineSlot(&quot;/18938132/Koimoi_Desktop_AP_Top_728x90&quot;, [[728, 90]], &quot;div-gpt-ad-5715095-1&quot;).addService(googletag.pubads());                                        googletag.enableServices();                                        googletag.display(&quot;div-gpt-ad-5715095-1&quot;);                                    });                                &lt;/script&gt;                            &lt;/div&gt;';
+            var decoded = decodeHtml(ad);
+            attachHtml('header_ad', decoded);
+        }
+    </script>
+                </div>
+                    </div>
+    </div>
+
+    <div class="td-header-menu-wrap-full td-container-wrap ">
+        
+        <div class="td-header-menu-wrap ">
+            <div class="td-container td-header-row td-header-main-menu black-menu">
+                <style type="text/css">
+    .agentMenu .hideMenu{
+      display: none;
+    }
+
+   .showMenuKoimoi {
+        display: none;
+    }
+     .koimoiMenu .showMenuKoimoi{
+      display: block;
+    }
+</style>
+<div id="td-header-menu" role="navigation">
+    <div id="td-top-mobile-toggle"><a href="javascript:void(0);"><i class="td-icon-font td-icon-mobile"></i></a></div>
+    <div class="td-main-menu-logo">
+        		<a class="td-mobile-logo td-sticky-header" href="https://www.koimoi.com/">
+			<img class="td-retina-data" data-retina="https://koimoi.com/wp-content/new-galleries/2023/10/Koimoi_logo_black_mobile.jpg" src="https://koimoi.com/wp-content/new-galleries/2023/10/Koimoi_logo_black_mobile.jpg" alt=""/>
+		</a>
+			<a class="td-header-logo td-sticky-header" href="https://www.koimoi.com/">
+			<img class="td-retina-data" data-retina="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_black_desktop.jpg" src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_black_desktop.jpg" alt=""/>
+		</a>
+	    </div>
+    
+
+    <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="sf-menu "><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-first td-menu-item td-normal-menu menu-item-383333"><a>Box Office</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-400090"><a href="https://www.koimoi.com/category/box-office/">Daily BO Update</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-649449"><a href="https://www.koimoi.com/category/box-office/daily-breakdown/">Daily Breakdown</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-396935"><a href="https://www.koimoi.com/category/box-office/hits-flops/">Hits &#038; Flops</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-524035"><a href="https://www.koimoi.com/category/box-office/all-time-grossers/">All Time Grossers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-383336"><a href="https://www.koimoi.com/category/box-office/highest-grossers/">Highest Grossers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-532935"><a href="https://www.koimoi.com/uncategorized/top-30-highest-opening-bollywood-movies-of-all-time/">Highest Openers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-383338"><a href="https://www.koimoi.com/category/box-office/highest-weekend/">Highest Weekend</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-383335"><a href="https://www.koimoi.com/box-office/top-10-highest-grossing-bollywood-films-in-overseas/">Best of Overseas</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-500453"><a href="https://www.koimoi.com/category/box-office/hollywood-highest/">Hollywood Highest</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762442"><a href="https://www.koimoi.com/category/box-office/fact-o-meter/">Fact-o-meter</a></li>
+</ul>
+</li>
+<li class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-397920"><a>News &#038; Gossip</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-780082"><a href="https://www.koimoi.com/category/entertainment-news/">Entertainment News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-426622"><a href="https://www.koimoi.com/category/bollywood-news/">Bollywood News</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-426623"><a href="https://www.koimoi.com/category/south-indian-cinema/">South</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-426624"><a href="https://www.koimoi.com/category/television/">Television &#038; Web</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1031588"><a href="https://www.koimoi.com/category/korean/">Korean</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-426625"><a href="https://www.koimoi.com/category/fashion-lifestyle/">Fashion &#038; Lifestyle</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-567939"><a href="https://www.koimoi.com/category/bigg-boss/">Bigg Boss</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-405936"><a title="Bollywood Celebs &#8211; Interviews" href="https://www.koimoi.com/category/bollywood-interviews/">Interviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762444"><a href="https://www.koimoi.com/category/wwe/">WWE</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762443"><a href="https://www.koimoi.com/category/hollywood-news/">Hollywood News</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1057861"><a href="https://www.koimoi.com/category/what-to-watch/">What To Watch</a></li>
+<li class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-383479"><a>Reviews</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-397922"><a href="https://www.koimoi.com/category/bollywood-movies/movie-reviews/">Bollywood Movie Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762445"><a href="https://www.koimoi.com/category/reviews/hollywood-movie-reviews/">Hollywood Movie Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-762446"><a href="#">South Indian Movie Reviews</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-953096"><a href="https://www.koimoi.com/category/reviews/south-indian-movie-reviews/">All South Movie Reviews</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-950735"><a href="https://www.koimoi.com/category/reviews/tamil-movie-reviews/">Tamil Movie Reviews</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-950736"><a href="https://www.koimoi.com/category/reviews/telugu-movie-reviews/">Telugu Movie Reviews</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-950733"><a href="https://www.koimoi.com/category/reviews/kannada-movie-reviews/">Kannada Movie Reviews</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-950734"><a href="https://www.koimoi.com/category/reviews/malayalam-movie-reviews/">Malayalam Movie Reviews</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-906223"><a href="https://www.koimoi.com/category/reviews/marathi-movie-reviews/">Marathi Movie Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-525699"><a href="https://www.koimoi.com/category/reviews/web-reviews/">Web Series Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-383480"><a href="https://www.koimoi.com/category/music-reviews/">Music Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-562850"><a href="https://www.koimoi.com/category/reviews/box-office-reviews/">Box Office Reviews</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-628657"><a href="https://www.koimoi.com/category/reviews/trailer-reviews/">Trailer Reviews</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category td-menu-item td-normal-menu menu-item-1080664"><a href="https://www.koimoi.com/category/cricket/">Cricket</a></li>
+<li class="hideMenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children td-menu-item td-normal-menu menu-item-515569"><a>Power Index</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-559711"><a href="https://www.koimoi.com/category/box-office-filmometer/">BO Filmometer</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-559712"><a href="https://www.koimoi.com/box-office/bollywood-box-office-power-index/">Stars&#8217; Power Index</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-559713"><a href="https://www.koimoi.com/category/box-office/directors-box-office-ranking/">Directors&#8217; Power Index</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-383337"><a href="https://www.koimoi.com/box-office/bollywoods-100-crore-club/">100 Crore Club</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398773"><a href="https://www.koimoi.com/box-office/bollywoods-top-worldwide-grossers/">Worldwide 200 Crores+</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398774"><a href="https://www.koimoi.com/category/box-office/profitable-films/">Profitable Films</a></li>
+</ul>
+</li>
+<li class="hideMenu menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children td-menu-item td-normal-menu menu-item-648885"><a>Library</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children td-menu-item td-normal-menu menu-item-648887"><a href="#">Movies</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762447"><a href="https://www.koimoi.com/koimoi-library/koimoi-library-recommended-movies-on-ott/">Recommended Movies</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item td-menu-item td-normal-menu menu-item-762448"><a href="https://www.koimoi.com/upcoming-movies/">Upcoming Movies</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762449"><a href="https://www.koimoi.com/released-movies/">Released Movies</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-762450"><a href="https://www.koimoi.com/category/trivia/">Trivia</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-1057862"><a href="https://www.koimoi.com/web-stories/">Web Stories</a></li>
+</ul>
+</li>
+<li class="menu-visible-phone menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-451772"><a href="https://www.koimoi.com/about-us/">About Koimoi</a></li>
+<li class="menu-visible-phone menu-item menu-item-type-post_type menu-item-object-page td-menu-item td-normal-menu menu-item-888618"><a href="https://www.koimoi.com/careers/">Careers</a></li>
+</ul></div></div>
+
+<!--<div class="td-search-wrapper">
+    <div id="td-top-search">
+        <div class="header-search-wrap">
+            <div class="dropdown header-search" style="position:unset">
+                <a id="td-header-search-button" href="#" role="button" class="dropdown-toggle " data-toggle="dropdown"><i class="td-icon-search"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header-search-wrap">
+	<div class="dropdown header-search"  style="position:unset">
+		<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
+			<form role="search" method="get" class="td-search-form" action="https://www.koimoi.com/">
+				<div class="td-head-form-search-wrap">
+					<input class="needsclick" id="td-header-search" type="text" value="" name="s" autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="Search" />
+				</div>
+			</form>
+			<div id="td-aj-search"></div>
+		</div>
+	</div>
+</div>-->
+            </div>
+        </div>
+    </div>
+
+</div>
+                
+                    <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+
+                    <!--
+                    <div class="td-transition-content-and-menu td-mobile-nav-wrap">
+                                            </div>
+                    -->
+
+                    <div class="td-transition-content-and-menu td-content-wrap">
+                        
+                        <script type="rocketlazyloadscript" language="JavaScript1.5" data-rocket-type="text/javascript" data-rocket-src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js" defer></script>
+                                <div class="td-visible-phone" align="center">
+
+        </div>
+
+
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+	@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+	section {
+	  display: none;
+	  padding: 20px 0 0;
+	  border-top: 1px solid #ddd;
+	}
+
+.td-main-page-wrap {
+  padding-top: 0px; 
+}
+
+
+section{
+	padding-top: 0!important;
+}
+
+	input {
+	  display: none;
+	}
+
+	label {
+	  display: inline-block;
+	  margin: 0 0 -1px;
+	  padding: 15px 25px;
+	  font-weight: 600;
+	  text-align: center;
+	  color: #bbb;
+	  border: 1px solid transparent;
+	}
+
+	label:before {
+	  font-family: fontawesome;
+	  font-weight: normal;
+	  margin-right: 10px;
+	}
+
+	label:hover {
+	  color: #888;
+	  cursor: pointer;
+	}
+
+	input:checked + label {
+	  color: #555;
+	  border: 1px solid #ddd;
+	  border-top: 2px solid orange;
+	  border-bottom: 1px solid #fff;
+	}
+
+	#tab1:checked ~ #content1,
+	#tab2:checked ~ #content2 {
+	  display: block;
+	}
+
+	.custom-movies {
+		padding: 10px;
+		margin: 0 auto;
+		background: #fff;
+		display: block;
+	}
+
+	.card {
+	    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	    transition: 0.3s;
+	    width: 18%;
+	    margin: 10px;
+	}
+
+	.card:hover {
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+
+	.container {
+	    padding: 2px 16px;
+	}
+
+	.main-section-movies{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 10px;
+	}
+
+	.upcoming_month, .released_month, .uyear, .ryear, .umonth, .rmonth{
+		padding: 6px; 
+		border: 1px solid;
+		cursor: default;
+	}
+
+
+.main-section-movies .card .title-box {
+    min-height: 65px;
+    text-align: left;
+}
+
+.main-section-movies .card .title-box > h4{
+	font-weight: 600;
+	text-align: left;
+	margin-top: 12px;
+	margin-bottom: 3px;
+	font-size: 22px;
+	line-height: initial; 
+	min-height: 46px;
+}
+.main-section-movies .card .title-box > h6{
+	margin-top: 0;	
+	margin-bottom: 0
+}
+.main-section-movies .card .title-box > h6 a{	
+	font-size: 15px;
+	font-weight: 500;
+	color: #d13030;
+}
+
+section > h3:first-child{
+	margin-top: 15px;
+}
+
+	@media screen and (max-width: 650px) {
+	  label:before {
+	    margin: 0;
+	    font-size: 18px;
+	  }
+	}
+
+	@media screen and (max-width: 400px) {
+	  label {
+	    padding: 15px;
+	  }
+	}
+
+	@media only screen and (max-width: 786px) {
+    	.card {
+		    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		    transition: 0.3s;
+		    width: 46%;
+		    margin: 5px;
+		}
+
+		.upcoming_month, .released_month, .uyear, .ryear, .umonth, .rmonth{
+			padding: 3px; 
+			border: 1px solid;
+			cursor: default;
+			display: inline-block;
+			margin-bottom: 2px;
+		}
+
+		.upcoming_movies, .released_movies{
+			width: 48%;
+		}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1281px){
+		.card {
+		    width: 31%;
+		}
+	}
+
+@media (max-width: 768px){
+	.main-section-movies .card .container{
+		padding: 2px 10px;
+	}
+	.main-section-movies .card .title-box {
+	min-height: 50px!important;
+	}
+
+	.main-section-movies .card .title-box > h4{
+	font-size: 18px!important;
+	text-align: center!important;
+	min-height: 45px!important;
+	 margin-bottom: 0px!important; 
+	margin-top: 5px!important;
+	}
+	.main-section-movies .card .title-box > h6{
+	text-align: center;
+	line-height: initial;
+	}
+	.main-section-movies .card .title-box > h6 a{
+	font-size: 12px!important;
+	vertical-align: top;
+	}
+}	
+
+</style>
+
+<div class="td-main-content-wrap td-main-page-wrap td-container-wrap">
+    <div class="td-container tdc-content-wrap">
+	  	<div class="custom-movies">
+		  <input id="tab1" type="radio" name="tabs" checked>
+		  <label class="upcoming_movies" for="tab1"><a href="https://www.koimoi.com/upcoming-movies/">Upcoming Movies</a></label>
+		    
+		  <input id="tab2" type="radio" name="tabs">
+		  <label class="released_movies" for="tab2"><a href="https://www.koimoi.com/released-movies/">Released Movies</a></label>
+		    
+		  <section id="content1" >
+		  	<h3>Upcoming Movies</h3>
+		  	<form action="https://www.koimoi.com/upcoming-movies/" method="GET" id="upcoming-form">
+			  	<select class="uyear" id="uyear" name="upcoming_year">
+			  		<option  value="2024">2024</option>
+			  		<option  value="2025">2025</option>
+			  		<option  value="2026">2026</option>
+			  	</select>
+		        <select class="umonth" id="umonth" name="upcoming_month">
+			  			        		<option  value="all">All</option>
+		        			        		<option  value="january">January</option>
+		        			        		<option  value="february">February</option>
+		        			        		<option  value="march">March</option>
+		        			        		<option  value="april">April</option>
+		        			        		<option  value="may">May</option>
+		        			        		<option  value="june">June</option>
+		        			        		<option  value="july">July</option>
+		        			        		<option  value="august">August</option>
+		        			        		<option  value="september">September</option>
+		        			        		<option  value="october">October</option>
+		        			        		<option  value="november">November</option>
+		        			        		<option  value="december">December</option>
+		        			    </select>
+	        </form>
+		  	<div class="main-section-movies">
+			    
+
+				        <div class="card">
+				        	<a href="https://www.koimoi.com/movie/devara/">
+								<img fetchpriority="high" src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/Devara.jpg">
+							</a>
+							<div class="container">
+								<div class="title-box">									
+									<h4><a href="https://www.koimoi.com/movie/devara/">Devara: Part 1</a></h4> 
+									<h6><a href="https://www.koimoi.com/release-date/2024-10-10/" rel="tag">10th October, 2024</a></h6>
+								</div>
+								<p>...</p> 
+							</div>
+						</div>
+						
+				        
+
+				        <div class="card">
+				        	<a href="https://www.koimoi.com/movie/pushpa-the-rule-part-2/">
+								<img src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/pushpa-the-rule-part-2.jpg">
+							</a>
+							<div class="container">
+								<div class="title-box">									
+									<h4><a href="https://www.koimoi.com/movie/pushpa-the-rule-part-2/">Pushpa: The Rule &#8211; Part 2</a></h4> 
+									<h6><a href="https://www.koimoi.com/release-date/2024-12-06/" rel="tag">06th December, 2024</a></h6>
+								</div>
+								<p>...</p> 
+							</div>
+						</div>
+						
+				        
+
+				        <div class="card">
+				        	<a href="https://www.koimoi.com/movie/sky-force/">
+								<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-lazy-src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/sky-force.jpg"><noscript><img src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2024/02/sky-force.jpg"></noscript>
+							</a>
+							<div class="container">
+								<div class="title-box">									
+									<h4><a href="https://www.koimoi.com/movie/sky-force/">Sky Force</a></h4> 
+									<h6><a href="https://www.koimoi.com/release-date/2024-10-02/" rel="tag">02nd October, 2024</a></h6>
+								</div>
+								<p>...</p> 
+							</div>
+						</div>
+						
+				        			</div>
+
+<div style="margin-left:10px; margin-top:20px;">
+
+Are you a Bollywood fan and do you eagerly wait for the release dates of your most awaited films? If yes, then you are a certified film buff, and we have the right information for you. In the Upcoming Movies Section, you can find the release date of all the latest Bollywood movies and new South movies. With the influx of social media platforms, a movie announcement is a much celebrated event by admirers of stars and filmmakers on these micro blogging sites. However, an upcoming Bollywood movie’s release date announcement is also nothing less than a fan-fare. So if you are here to find out about an upcoming new Hindi movie, then you have reached the right destination. <BR>
+<BR>
+In this section, besides finding out about the release dates of these new Bollywood movies, you’ll also get many other details on these upcoming movies too. This information includes genre, cast, writer, director, producer and a brief plot of new movie releases. Additionally, you can also find videos, trailer, teaser and a plethora of other connected news articles to the upcoming new Hindi films listed on Koimoi. An ardent fan can always binge on this information for staying updated about his/her favourite film. There is a lot that is happening in the Indian film industry, and you are sure to find all the relevant data on Koimoi.com, India’s foremost digital entertainment portal. <BR>
+<BR>
+With our large experience and a team of dedicated reporters you can trust us for being the first to serve you with all the news on latest Bollywood movies and new movies coming. Our writers closely track every new Hindi film to provide our readers with the most up to date data. Every reader seeks timeliness and accuracy from a news portal, and you can trust Koimoi.com to provide you with all that and much more. So what are you waiting for, browse on for all the latest entertainment news and updates.
+</div>
+
+		  </section>
+		</div>   
+		
+		
+	</div>
+</div>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		var uyear = jQuery( "#uyear" ).val();
+	var umonth = jQuery( "#umonth" ).val();
+
+	
+	jQuery( ".uyear" ).change(function() {
+	  	var uyear = jQuery( "#uyear" ).val();
+		location.href = 'https://www.koimoi.com/upcoming-movies/'+umonth+'-'+uyear;
+	});
+
+	jQuery( ".umonth" ).change(function() {
+	  	var umonth = jQuery( "#umonth" ).val();
+		location.href = 'https://www.koimoi.com/upcoming-movies/'+umonth+'-'+uyear;
+	});
+	
+</script>
+
+
+
+
+
+<!-- Footer Wrapper Starts-->
+<div class="wrapper footerWrapper">
+    
+
+    
+
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+        function isPaytm() {
+            const ua = window.navigator.userAgent;
+            return /AppContainer/i.test(ua);
+        }
+        
+        if (isKoimoiMobileApp() == true) {
+            console.log("mobile app");
+            jQuery('#div-gpt-ad-300x250-ap-atf').hide();
+            jQuery('ad-wrapper-border').hide();
+        }
+
+        function removeLinks() {
+            jQuery("p").each(function(index) {
+                var tstr = jQuery(this).text();
+                
+                if (tstr.match(/Facebook \|/g) != null) {
+                    jQuery(this).html("");
+                }
+
+                if (tstr.match(/download our mobile app/g) != null) {
+                    jQuery(this).html("");
+                }
+            });
+        }
+
+
+        jQuery(document).ready(function() {
+            if (isPaytm() == true) {
+                jQuery('li .app-download').css("display", "none");
+                jQuery('.footer-social-wrap').css("display", "none");
+                jQuery('.td-classic-sharing').css("display", "none");
+                jQuery('.td-post-sharing-bottom').css("display", "none");
+                jQuery('.fb-comments').css("display", "none");
+                jQuery('.app-download').css("display", "none");
+
+                removeLinks();
+            }
+        });
+    </script>
+    <script type="rocketlazyloadscript">
+        ///// mobile
+        var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function() {
+                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+            }
+        };
+
+        function isBoapp() {
+            const ua = window.navigator.userAgent;
+            return /bo-app/i.test(ua);
+        }
+
+        function isKoimoiapp() {
+            const ua = window.navigator.userAgent;
+            return /koimoi-app/i.test(ua);
+        }
+
+        if ((isBoapp() === true) || (isKoimoiapp() === true)) {
+            console.log("isKoimoiapp");
+
+            jQuery("head").append("<style>.ad-wrapper-border{display:none;}</style>");
+
+            jQuery("head").append("<style>#taboolaid{display:none;}body{padding-bottom: 0px !important;}</style>");
+
+            jQuery("head").append("<style>.app-download{display:none;}</style>");
+
+            jQuery(".app-download").hide();
+            jQuery(".ad-wrapper-border").hide();
+            jQuery("#youtubevideoid").hide();
+        }
+    </script>
+
+    <!-- Footer -->
+    <div class="td-footer-wrapper td-footer-container td-container-wrap ">
+    <div class="td-container">
+
+	    <div class="td-pb-row">
+		    <div class="td-pb-span12">
+                		    </div>
+	    </div>
+
+        <div class="td-pb-row">
+
+            <div class="td-pb-span4">
+                            </div>
+
+            <div class="td-pb-span4">
+                            </div>
+
+            <div class="td-pb-span4">
+                            </div>
+        </div>
+    </div>
+<div class="td-footer-bottom-full">
+    <div class="td-container">
+        <div class="td-pb-row">
+            <div class="td-pb-span3"><aside class="footer-logo-wrap"><a href="https://www.koimoi.com/"><img class="td-retina-data" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20568%200'%3E%3C/svg%3E" data-retina="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_new_white.png" alt="Koimoi" title="Koimoi" width="568" data-lazy-src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_new_white.png" /><noscript><img class="td-retina-data" src="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_new_white.png" data-retina="https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/10/Koimoi_logo_new_white.png" alt="Koimoi" title="Koimoi" width="568" /></noscript></a></aside></div><div class="td-pb-span5"><aside class="footer-text-wrap"><div class="block-title"><span>ABOUT US</span></div></aside></div><div class="td-pb-span4"><aside class="footer-social-wrap td-social-style-2"><div class="footer-social-network-wrapper"><p>Social Network</p>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.facebook.com/koimoidotcom?sk=wall" title="Facebook">
+                <i class="td-icon-font td-icon-facebook"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.instagram.com/koimoi/" title="Instagram">
+                <i class="td-icon-font td-icon-instagram"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://in.pinterest.com/koimoi/" title="Pinterest">
+                <i class="td-icon-font td-icon-pinterest"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://twitter.com/Koimoi" title="Twitter">
+                <i class="td-icon-font td-icon-twitter"></i>
+            </a>
+        </span>
+        <span class="td-social-icon-wrap">
+            <a target="_blank" href="https://www.youtube.com/user/Koimoi4Bollywood?sub_confirmation=1" title="Youtube">
+                <i class="td-icon-font td-icon-youtube"></i>
+            </a>
+        </span> </div>
+                    <div class="applications-download-wrapper">
+                        <p>Mobile Applications</p>
+                        <a class="fa fa-android" rel="nofollow" href="https://play.google.com/store/apps/details?id=com.koimoi.android"></a>
+                        <a class="fa fa-apple" rel="nofollow" href="https://apps.apple.com/us/app/koimoi-bollywood-news-box-office/id775718111"></a>
+                    </div></aside></div>        </div>
+    </div>
+</div>
+</div>
+
+    <!-- Sub Footer -->
+            <div class="td-sub-footer-container td-container-wrap ">
+            <div class="td-container">
+                <div class="td-pb-row">
+                    <div class="td-pb-span8 td-sub-footer-menu">
+                        <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="td-subfooter-menu"><li id="menu-item-398859" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-first td-menu-item td-normal-menu menu-item-398859"><a href="https://www.koimoi.com/about-us/">About</a></li>
+<li id="menu-item-398860" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398860"><a href="https://www.koimoi.com/contact-us/">Contact</a></li>
+<li id="menu-item-398861" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398861"><a href="https://www.koimoi.com/careers/">Careers</a></li>
+<li id="menu-item-398863" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398863"><a href="https://www.koimoi.com/terms-conditions/">T &#038; C</a></li>
+<li id="menu-item-398864" class="menu-item menu-item-type-custom menu-item-object-custom td-menu-item td-normal-menu menu-item-398864"><a href="https://www.koimoi.com/privacy-policy/">Privacy Policy</a></li>
+</ul></div>                    </div>
+
+                    <div class="td-pb-span4 td-sub-footer-copy">
+                        &copy; Contests2win.com India Pvt. Ltd. All Rights Reserved                    </div>
+                    <!-- Wrapper Ends -->
+                </div>
+                <!--close content div-->
+            </div>
+            <!--close td-outer-wrap-->
+        </div>
+</div>
+</div>
+<div id="footer-wrapper"></div>
+<!-- Footer Wrapper Ends-->
+
+
+
+
+    <!--
+
+        Theme: Newspaper by tagDiv.com 2019
+        Version: 9.6.1 (rara)
+        Deploy mode: deploy
+        Speed booster: v4.5
+
+        uid: 66cde963db197
+    -->
+
+    
+<!-- Custom css from theme panel -->
+<style type="text/css" media="screen">
+/* custom css theme panel */
+/* for widget block after the share article starts */
+.single .td-pb-row .td-pb-row .td-pb-span8{
+    width: 100%;
+}
+p.levelsame {
+    position: relative;
+    bottom: 5px;
+}
+div#trending-append-custom1 {
+    padding-right: 35px;
+}
+.comments{
+    position: relative;
+}
+/* for widget block after the share article ends */
+
+/* menu font size for mobile increased and padding increased bewtween 2 lines starts*/
+.td-mobile-content li a{
+    font-size:17px
+}
+.td-mobile-content .sub-menu a{
+    padding:12px 8px 12px 36px !important;
+    font-size: 14px;
+}
+/* menu font size for mobile increased and padding increased bewtween 2 lines ends*/
+
+.review-slider-phone{
+    display:none;
+}
+@media (max-width: 768px){
+
+    .td-a-rec-id-custom_ad_15 {
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    div#PDRTJS_8978327_post_1035888_msg {
+        margin-top: 20px;
+    }
+}
+
+.td-module-thumb .entry-thumb {
+    width: 100%;
+}
+.fb_iframe_widget iframe{
+    width:100%!important;
+}
+.td-footer-bottom-full{
+    padding:0;
+    margin:0;
+}
+.td-footer-bottom-full .footer-logo-wrap {
+    margin-top: 7px;
+}
+.td-footer-wrapper.td-container-wrap{
+    padding:0;
+}
+.td-video-play-ico > img{
+    width:40px;
+}
+.td-subfooter-menu li{
+    width: auto;
+    margin: 0 5px;
+}
+.footerWrapper .td-subfooter-menu {
+    max-width: unset;
+}
+.td-sub-footer-container{
+    font-size:11px;
+}
+.td-sub-footer-copy{
+    margin:0;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.rss-icon-right{
+    display:none;
+}
+body.td-animation-stack-type0 .post img{
+    width:auto;
+}
+.td-post-content{
+    word-break: break-word;
+}
+.td-post-content figure.wp-caption{
+    display:table-cell;
+}
+.td_module_6 .td-module-thumb .entry-thumb {
+    display: inline;
+}
+#tablepress-458 thead tr th{
+    width:25%!important;
+}
+.wp-polls-ul input{
+    cursor:pointer;
+}
+.wp-polls-ul label{
+    position:relative;
+    font-weight: normal;
+    cursor:pointer;
+    padding-left:40px;
+    display:block;
+}
+.wp-polls-ul label:hover{
+    color:#d13030;
+}
+.wp-polls ul li{
+    padding: 1% 0 1% 0;
+    border-bottom: 1px solid lightgray;
+}
+.wp-polls .Buttons{
+    border: none;
+    background-color: black;
+    color: white;
+}
+/* Hide the browser's default radio button */
+.label-answer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.label-answer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.label-answer input:checked ~ .checkmark {
+    background-color: #d13030;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.label-answer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.label-answer .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+}
+
+#div-gpt-ad-300x600-1{
+    margin-bottom: 0px !important;
+}
+.td_module_1:hover .entry-title a,
+.td_module_2:hover .entry-title a,
+.td_module_4:hover .entry-title a,
+.td_module_6:hover .entry-title a,
+.td_module_10:hover .entry-title a,
+.td_module_related_posts:hover .entry-title a{
+    color:black!important;
+}
+
+
+#taboolaid .textwidget {
+    margin-bottom: 1px !important
+}
+
+#taboolaid  {
+    margin-bottom: 1px !important
+}
+
+#taboolaid .td_block_template_1 {
+    margin-bottom: 10px !important
+}
+figcaption.vc_figure-caption{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: left;
+    margin: 6px 0 26px 0;
+    font-size: 11px !important;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 17px;
+    color: #444;
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 1141px) {
+.td_module_mx1 .meta-info {
+background-color: rgba(0, 0, 0, 0.4);
+padding: 14px 20px 0px 20px;
+position: absolute;
+line-height: 24px;
+margin-bottom: 0px;
+}
+
+.td_module_14 .td-excerpt {
+display: none;
+}
+
+.td_module_14 .td-module-thumb {
+margin-bottom: 69px;
+}
+
+.sf-menu > li > a {
+  padding: 0 13px;
+}
+
+
+.td-sub-footer-container .td-pb-span4 {
+    width: 33%;
+    text-align: left;
+    padding: 8px 0px 8px 50px;
+    color: #fff;
+}
+
+.td-footer-wrapper.td-container-wrap {
+    padding-bottom: 0px;
+}
+
+.footer-text-wrap {
+    font-size: 17px;
+}
+
+.contentHolder>.td-main-content-wrap.td-container-wrap {
+    background: transparent;
+}
+
+.contentHolder>.td-main-content-wrap>.td-container {
+    background: #fff;
+}
+
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (max-width: 767px) {
+.td_block_big_grid .td-subcategory-header{
+display:none;
+width:0;
+height:0;
+visibility:hidden;
+}
+
+.td-subcategory-header{
+display:none;
+width:0;
+height:0;
+visibility:hidden;
+}
+
+
+.td_module_14 .td-excerpt {
+display: none;
+}
+.td_module_14 .meta-info {
+margin-bottom: 35px;
+}
+
+
+
+.td-crumb-container {
+    padding-top: 11px;
+    min-height: 0px;
+}
+
+.td-mobile-content {
+    padding: 0;
+    padding-top: 7px;
+}
+
+.td-sub-footer-container .td-pb-span4 {
+	width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.td-footer-wrapper.td-container-wrap>.td-container {
+    display: none;
+}
+.td-footer-bottom-full .td-pb-row>div {
+    margin-bottom: 0px;
+}
+
+.menu-visible-phone{
+    display: block;
+}
+
+.td-mobile-content li a {
+    padding: 8px 30px 8px 8px;
+}
+
+.td-mobile-content .td-icon-menu-right {
+    padding: 0px 12px;
+}
+
+.td-mobile-close .td-icon-close-mobile {
+    height: 65px;
+    width: 65px;
+    line-height: 60px;
+}
+
+.app-download {
+    text-align: center;
+    /*background-color: #d13030;*/
+}
+
+.td-mobile-content li.app-download a span{
+	color: #d13030;
+}
+
+.td-mobile-content li.app-download:hover {
+    background: transparent;
+}
+
+.review-slider-phone{
+    display:block;
+}
+
+.td-header-menu-wrap.td-affix {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+li.app-download a {
+    padding: 0px 0px 0px 0px;
+}
+
+.td-mobile-content li.app-download a {
+    width: 100% !Important;
+    margin: 0px !important;
+}
+.td_module_related_posts .entry-title a{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.td-pb-span4{
+    text-align:unset;
+}
+
+
+.td_module_10 .td-post-category {
+    display: inline-block;
+}
+.td-header-menu-wrap{
+    box-shadow: 0 8px 6px -6px #999;
+}
+.footer-logo-wrap img {
+    max-width: 165px;
+}
+.footerWrapper .td-subfooter-menu{
+    margin-top:0px;
+}
+.td-video-play-ico > img {
+    width: auto;
+}
+.td-post-sharing-bottom .td-social-sharing-buttons{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+.td-post-sharing-bottom .td-social-sharing-buttons i{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.td-post-sharing-bottom{
+    padding-left:20px;
+}
+.wp-polls ul li{
+    margin-left:0px;
+}
+/*lyrics table start*/
+.lyrics-table {
+    width: 100%!important;
+}
+.lyrics-table tr {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.lyrics-table tr td {
+    width: 100%!important;
+}
+.lyrics-table tr table{
+    width:100%!important;
+}
+.lyrics-table tr table figure{
+    width:100%!important;
+}
+.lyrics-checkout {
+    width: 100%!important;
+}
+/*lyrics table end*/
+.td-post-content table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%!important;
+}
+.entry-title.td-page-title {
+    word-break: break-word;
+}
+.td-trending-now-display-area .td_module_trending_now .entry-title a{
+height: 44px;
+display: block;
+white-space: initial;
+word-wrap: break-word;
+word-break: break-word;
+}
+}
+</style>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">jQuery( ".td-trending-now-title" ).click(function() {
+  window.location='http://www.koimoi.com/category/trending';
+});</script>	<script type="rocketlazyloadscript" data-rocket-type="module">
+		import { Workbox } from "https:\/\/www.koimoi.com\/wp-content\/plugins\/pwa\/wp-includes\/js\/workbox-v7.0.0\/workbox-window.prod.js";
+
+		if ( 'serviceWorker' in navigator ) {
+			window.wp = window.wp || {};
+			window.wp.serviceWorkerWindow = new Workbox(
+				"https:\/\/www.koimoi.com\/wp.serviceworker",
+				{"scope":"\/"}			);
+			window.wp.serviceWorkerWindow.register();
+		}
+	</script>
+	<script type="text/javascript" id="wp-polls-js-extra">
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/www.koimoi.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://static-koimoi.akamaized.net/wp-content/plugins/wp-polls/polls-js.js?ver=2.77.2" id="wp-polls-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/upcoming-movies\/|\/released-movies\/|\/amp\/|\/web-stories\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/wp.serviceworker\/?|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.koimoi.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/js/tagdiv_theme.min.js?ver=9.6.1" id="td-site-min-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://static-koimoi.akamaized.net/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript"></script>
+<!-- JS generated by theme -->
+
+<script type="rocketlazyloadscript">
+    
+
+	
+
+		(function(){
+			var html_jquery_obj = jQuery('html');
+
+			if (html_jquery_obj.length && (html_jquery_obj.is('.ie8') || html_jquery_obj.is('.ie9'))) {
+
+				var path = 'https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/style.css';
+
+				jQuery.get(path, function(data) {
+
+					var str_split_separator = '#td_css_split_separator';
+					var arr_splits = data.split(str_split_separator);
+					var arr_length = arr_splits.length;
+
+					if (arr_length > 1) {
+
+						var dir_path = 'https://static-koimoi.akamaized.net/wp-content/themes/Newsmag';
+						var splited_css = '';
+
+						for (var i = 0; i < arr_length; i++) {
+							if (i > 0) {
+								arr_splits[i] = str_split_separator + ' ' + arr_splits[i];
+							}
+							//jQuery('head').append('<style>' + arr_splits[i] + '</style>');
+
+							var formated_str = arr_splits[i].replace(/\surl\(\'(?!data\:)/gi, function regex_function(str) {
+								return ' url(\'' + dir_path + '/' + str.replace(/url\(\'/gi, '').replace(/^\s+|\s+$/gm,'');
+							});
+
+							splited_css += "<style>" + formated_str + "</style>";
+						}
+
+						var td_theme_css = jQuery('link#td-theme-css');
+
+						if (td_theme_css.length) {
+							td_theme_css.after(splited_css);
+						}
+					}
+				});
+			}
+		})();
+
+	
+	
+</script>
+
+
+<!-- Header style compiled by theme -->
+
+<style>
+    
+.td-header-wrap .black-menu .sf-menu > .current-menu-item > a,
+    .td-header-wrap .black-menu .sf-menu > .current-menu-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > .current-category-ancestor > a,
+    .td-header-wrap .black-menu .sf-menu > li > a:hover,
+    .td-header-wrap .black-menu .sf-menu > .sfHover > a,
+    .td-header-style-12 .td-header-menu-wrap-full,
+    .sf-menu > .current-menu-item > a:after,
+    .sf-menu > .current-menu-ancestor > a:after,
+    .sf-menu > .current-category-ancestor > a:after,
+    .sf-menu > li:hover > a:after,
+    .sf-menu > .sfHover > a:after,
+    .td-header-style-12 .td-affix,
+    .header-search-wrap .td-drop-down-search:after,
+    .header-search-wrap .td-drop-down-search .btn:hover,
+    input[type=submit]:hover,
+    .td-read-more a,
+    .td-post-category:hover,
+    .td-grid-style-1.td-hover-1 .td-big-grid-post:hover .td-post-category,
+    .td-grid-style-5.td-hover-1 .td-big-grid-post:hover .td-post-category,
+    .td_top_authors .td-active .td-author-post-count,
+    .td_top_authors .td-active .td-author-comments-count,
+    .td_top_authors .td_mod_wrap:hover .td-author-post-count,
+    .td_top_authors .td_mod_wrap:hover .td-author-comments-count,
+    .td-404-sub-sub-title a:hover,
+    .td-search-form-widget .wpb_button:hover,
+    .td-rating-bar-wrap div,
+    .td_category_template_3 .td-current-sub-category,
+    .dropcap,
+    .td_wrapper_video_playlist .td_video_controls_playlist_wrapper,
+    .wpb_default,
+    .wpb_default:hover,
+    .td-left-smart-list:hover,
+    .td-right-smart-list:hover,
+    .woocommerce-checkout .woocommerce input.button:hover,
+    .woocommerce-page .woocommerce a.button:hover,
+    .woocommerce-account div.woocommerce .button:hover,
+    #bbpress-forums button:hover,
+    .bbp_widget_login .button:hover,
+    .td-footer-wrapper .td-post-category,
+    .td-footer-wrapper .widget_product_search input[type="submit"]:hover,
+    .woocommerce .product a.button:hover,
+    .woocommerce .product #respond input#submit:hover,
+    .woocommerce .checkout input#place_order:hover,
+    .woocommerce .woocommerce.widget .button:hover,
+    .single-product .product .summary .cart .button:hover,
+    .woocommerce-cart .woocommerce table.cart .button:hover,
+    .woocommerce-cart .woocommerce .shipping-calculator-form .button:hover,
+    .td-next-prev-wrap a:hover,
+    .td-load-more-wrap a:hover,
+    .td-post-small-box a:hover,
+    .page-nav .current,
+    .page-nav:first-child > div,
+    .td_category_template_8 .td-category-header .td-category a.td-current-sub-category,
+    .td_category_template_4 .td-category-siblings .td-category a:hover,
+    #bbpress-forums .bbp-pagination .current,
+    #bbpress-forums #bbp-single-user-details #bbp-user-navigation li.current a,
+    .td-theme-slider:hover .slide-meta-cat a,
+    a.vc_btn-black:hover,
+    .td-trending-now-wrapper:hover .td-trending-now-title,
+    .td-scroll-up,
+    .td-smart-list-button:hover,
+    .td-weather-information:before,
+    .td-weather-week:before,
+    .td_block_exchange .td-exchange-header:before,
+    .td_block_big_grid_9.td-grid-style-1 .td-post-category,
+    .td_block_big_grid_9.td-grid-style-5 .td-post-category,
+    .td-grid-style-6.td-hover-1 .td-module-thumb:after,
+    .td-pulldown-syle-2 .td-subcat-dropdown ul:after,
+    .td_block_template_9 .td-block-title:after,
+    .td_block_template_15 .td-block-title:before,
+    div.wpforms-container .wpforms-form div.wpforms-submit-container button[type=submit] {
+        background-color: #d13030;
+    }
+
+    .td_block_template_4 .td-related-title .td-cur-simple-item:before {
+        border-color: #d13030 transparent transparent transparent !important;
+    }
+
+    .woocommerce .woocommerce-message .button:hover,
+    .woocommerce .woocommerce-error .button:hover,
+    .woocommerce .woocommerce-info .button:hover {
+        background-color: #d13030 !important;
+    }
+    
+    
+    .td_block_template_4 .td-related-title .td-cur-simple-item,
+    .td_block_template_3 .td-related-title .td-cur-simple-item,
+    .td_block_template_9 .td-related-title:after {
+        background-color: #d13030;
+    }
+
+    .woocommerce .product .onsale,
+    .woocommerce.widget .ui-slider .ui-slider-handle {
+        background: none #d13030;
+    }
+
+    .woocommerce.widget.widget_layered_nav_filters ul li a {
+        background: none repeat scroll 0 0 #d13030 !important;
+    }
+
+    a,
+    cite a:hover,
+    .td_mega_menu_sub_cats .cur-sub-cat,
+    .td-mega-span h3 a:hover,
+    .td_mod_mega_menu:hover .entry-title a,
+    .header-search-wrap .result-msg a:hover,
+    .td-header-top-menu .td-drop-down-search .td_module_wrap:hover .entry-title a,
+    .td-header-top-menu .td-icon-search:hover,
+    .td-header-wrap .result-msg a:hover,
+    .top-header-menu li a:hover,
+    .top-header-menu .current-menu-item > a,
+    .top-header-menu .current-menu-ancestor > a,
+    .top-header-menu .current-category-ancestor > a,
+    .td-social-icon-wrap > a:hover,
+    .td-header-sp-top-widget .td-social-icon-wrap a:hover,
+    .td-page-content blockquote p,
+    .td-post-content blockquote p,
+    .mce-content-body blockquote p,
+    .comment-content blockquote p,
+    .wpb_text_column blockquote p,
+    .td_block_text_with_title blockquote p,
+    .td_module_wrap:hover .entry-title a,
+    .td-subcat-filter .td-subcat-list a:hover,
+    .td-subcat-filter .td-subcat-dropdown a:hover,
+    .td_quote_on_blocks,
+    .dropcap2,
+    .dropcap3,
+    .td_top_authors .td-active .td-authors-name a,
+    .td_top_authors .td_mod_wrap:hover .td-authors-name a,
+    .td-post-next-prev-content a:hover,
+    .author-box-wrap .td-author-social a:hover,
+    .td-author-name a:hover,
+    .td-author-url a:hover,
+    .td_mod_related_posts:hover h3 > a,
+    .td-post-template-11 .td-related-title .td-related-left:hover,
+    .td-post-template-11 .td-related-title .td-related-right:hover,
+    .td-post-template-11 .td-related-title .td-cur-simple-item,
+    .td-post-template-11 .td_block_related_posts .td-next-prev-wrap a:hover,
+    .comment-reply-link:hover,
+    .logged-in-as a:hover,
+    #cancel-comment-reply-link:hover,
+    .td-search-query,
+    .td-category-header .td-pulldown-category-filter-link:hover,
+    .td-category-siblings .td-subcat-dropdown a:hover,
+    .td-category-siblings .td-subcat-dropdown a.td-current-sub-category,
+    .widget a:hover,
+    .td_wp_recentcomments a:hover,
+    .archive .widget_archive .current,
+    .archive .widget_archive .current a,
+    .widget_calendar tfoot a:hover,
+    .woocommerce a.added_to_cart:hover,
+    .woocommerce-account .woocommerce-MyAccount-navigation a:hover,
+    #bbpress-forums li.bbp-header .bbp-reply-content span a:hover,
+    #bbpress-forums .bbp-forum-freshness a:hover,
+    #bbpress-forums .bbp-topic-freshness a:hover,
+    #bbpress-forums .bbp-forums-list li a:hover,
+    #bbpress-forums .bbp-forum-title:hover,
+    #bbpress-forums .bbp-topic-permalink:hover,
+    #bbpress-forums .bbp-topic-started-by a:hover,
+    #bbpress-forums .bbp-topic-started-in a:hover,
+    #bbpress-forums .bbp-body .super-sticky li.bbp-topic-title .bbp-topic-permalink,
+    #bbpress-forums .bbp-body .sticky li.bbp-topic-title .bbp-topic-permalink,
+    .widget_display_replies .bbp-author-name,
+    .widget_display_topics .bbp-author-name,
+    .footer-text-wrap .footer-email-wrap a,
+    .td-subfooter-menu li a:hover,
+    .footer-social-wrap a:hover,
+    a.vc_btn-black:hover,
+    .td-smart-list-dropdown-wrap .td-smart-list-button:hover,
+    .td_module_17 .td-read-more a:hover,
+    .td_module_18 .td-read-more a:hover,
+    .td_module_19 .td-post-author-name a:hover,
+    .td-instagram-user a,
+    .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more span,
+    .td-pulldown-syle-2 .td-subcat-dropdown:hover .td-subcat-more i,
+    .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more span,
+    .td-pulldown-syle-3 .td-subcat-dropdown:hover .td-subcat-more i,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-display-option:hover i,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-link:hover,
+    .td-block-title-wrap .td-wrapper-pulldown-filter .td-pulldown-filter-item .td-cur-simple-item,
+    .td_block_template_2 .td-related-title .td-cur-simple-item,
+    .td_block_template_5 .td-related-title .td-cur-simple-item,
+    .td_block_template_6 .td-related-title .td-cur-simple-item,
+    .td_block_template_7 .td-related-title .td-cur-simple-item,
+    .td_block_template_8 .td-related-title .td-cur-simple-item,
+    .td_block_template_9 .td-related-title .td-cur-simple-item,
+    .td_block_template_10 .td-related-title .td-cur-simple-item,
+    .td_block_template_11 .td-related-title .td-cur-simple-item,
+    .td_block_template_12 .td-related-title .td-cur-simple-item,
+    .td_block_template_13 .td-related-title .td-cur-simple-item,
+    .td_block_template_14 .td-related-title .td-cur-simple-item,
+    .td_block_template_15 .td-related-title .td-cur-simple-item,
+    .td_block_template_16 .td-related-title .td-cur-simple-item,
+    .td_block_template_17 .td-related-title .td-cur-simple-item,
+    .td-theme-wrap .sf-menu ul .td-menu-item > a:hover,
+    .td-theme-wrap .sf-menu ul .sfHover > a,
+    .td-theme-wrap .sf-menu ul .current-menu-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-category-ancestor > a,
+    .td-theme-wrap .sf-menu ul .current-menu-item > a,
+    .td_outlined_btn,
+     .td_block_categories_tags .td-ct-item:hover {
+        color: #d13030;
+    }
+
+    a.vc_btn-black.vc_btn_square_outlined:hover,
+    a.vc_btn-black.vc_btn_outlined:hover,
+    .td-mega-menu-page .wpb_content_element ul li a:hover,
+    .td-theme-wrap .td-aj-search-results .td_module_wrap:hover .entry-title a,
+    .td-theme-wrap .header-search-wrap .result-msg a:hover {
+        color: #d13030 !important;
+    }
+
+    .td-next-prev-wrap a:hover,
+    .td-load-more-wrap a:hover,
+    .td-post-small-box a:hover,
+    .page-nav .current,
+    .page-nav:first-child > div,
+    .td_category_template_8 .td-category-header .td-category a.td-current-sub-category,
+    .td_category_template_4 .td-category-siblings .td-category a:hover,
+    #bbpress-forums .bbp-pagination .current,
+    .post .td_quote_box,
+    .page .td_quote_box,
+    a.vc_btn-black:hover,
+    .td_block_template_5 .td-block-title > *,
+    .td_outlined_btn {
+        border-color: #d13030;
+    }
+
+    .td_wrapper_video_playlist .td_video_currently_playing:after {
+        border-color: #d13030 !important;
+    }
+
+    .header-search-wrap .td-drop-down-search:before {
+        border-color: transparent transparent #d13030 transparent;
+    }
+
+    .block-title > span,
+    .block-title > a,
+    .block-title > label,
+    .widgettitle,
+    .widgettitle:after,
+    .td-trending-now-title,
+    .td-trending-now-wrapper:hover .td-trending-now-title,
+    .wpb_tabs li.ui-tabs-active a,
+    .wpb_tabs li:hover a,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab.vc_active > a,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tab:hover > a,
+    .td_block_template_1 .td-related-title .td-cur-simple-item,
+    .woocommerce .product .products h2:not(.woocommerce-loop-product__title),
+    .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more, 
+    .td_3D_btn,
+    .td_shadow_btn,
+    .td_default_btn,
+    .td_round_btn, 
+    .td_outlined_btn:hover {
+    	background-color: #d13030;
+    }
+
+    .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    	background-color: #d13030 !important;
+    }
+
+    .block-title,
+    .td_block_template_1 .td-related-title,
+    .wpb_tabs .wpb_tabs_nav,
+    .vc_tta-container .vc_tta-color-grey.vc_tta-tabs-position-top.vc_tta-style-classic .vc_tta-tabs-container,
+    .woocommerce div.product .woocommerce-tabs ul.tabs:before {
+        border-color: #d13030;
+    }
+    .td_block_wrap .td-subcat-item a.td-cur-simple-item {
+	    color: #d13030;
+	}
+
+
+    
+    .td-grid-style-4 .entry-title
+    {
+        background-color: rgba(209, 48, 48, 0.7);
+    }
+
+    
+    .td-header-wrap .td-header-top-menu-full,
+    .td-header-wrap .top-header-menu .sub-menu {
+        background-color: #222222;
+    }
+    .td-header-style-8 .td-header-top-menu-full {
+        background-color: transparent;
+    }
+    .td-header-style-8 .td-header-top-menu-full .td-header-top-menu {
+        background-color: #222222;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .td-header-wrap .td-header-top-menu-full .td-header-top-menu,
+    .td-header-wrap .td-header-top-menu-full {
+        border-bottom: none;
+    }
+
+
+    
+    .td-header-top-menu,
+    .td-header-top-menu a,
+    .td-header-wrap .td-header-top-menu-full .td-header-top-menu,
+    .td-header-wrap .td-header-top-menu-full a,
+    .td-header-style-8 .td-header-top-menu,
+    .td-header-style-8 .td-header-top-menu a,
+    .td-header-top-menu .td-drop-down-search .entry-title a {
+        color: #ffffff;
+    }
+
+    
+    .top-header-menu .current-menu-item > a,
+    .top-header-menu .current-menu-ancestor > a,
+    .top-header-menu .current-category-ancestor > a,
+    .top-header-menu li a:hover,
+    .td-header-sp-top-widget .td-icon-search:hover {
+        color: #d13030;
+    }
+
+    
+    .td-header-wrap .td-header-sp-top-widget i.td-icon-font:hover {
+        color: #d13030;
+    }
+
+
+    
+    .td-sub-footer-container {
+        background-color: #d13030;
+    }
+</style>
+
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://static-koimoi.akamaized.net/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+    <div id="sticky_ad"></div>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript" async>
+        if (/iPhone|Android|iPod|Blackberry|Palm|Mobile|AvantGo|Docomo/i.test(navigator.userAgent)) {
+            // mobile ad
+            var ad = '&lt;div class=&quot;mobile-sticky-footer-ad&quot;&gt;                                    &lt;div class=&quot;ad-wrapper-border&quot;&gt;                                        &lt;p class=&quot;ad-heading&quot;&gt;Advertisement&lt;/p&gt;                                        &lt;div id=&quot;div-gpt-ad-1631195388725-0&quot;&gt;&lt;/div&gt;                                        &lt;script&gt;                                            window.googletag = window.googletag || {cmd: []};                                            googletag.cmd.push(function () {                                                googletag.defineSlot(&quot;/18938132/Koimoi_Mobile_AP_Sticky_320x50&quot;, [[320, 50]], &quot;div-gpt-ad-1631195388725-0&quot;).addService(googletag.pubads());                                                googletag.enableServices();                                                googletag.display(&quot;div-gpt-ad-1631195388725-0&quot;);                                            });                                        &lt;/script&gt;                                    &lt;/div&gt;                                &lt;/div&gt;';
+            var decoded = decodeHtml(ad);
+            attachHtml('sticky_ad', decoded);
+        } else {
+            // desktop ad
+            $("#sticky_ad").remove();
+        }
+    </script>
+
+
+<script type="rocketlazyloadscript">
+    function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+        if (/android/i.test(userAgent)) {
+            jQuery(".app-download").click(function() {
+                window.location = 'https://play.google.com/store/apps/details?id=com.koimoi.android&hl=en';
+            });
+        }
+
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+            jQuery(".app-download").click(function() {
+                window.location = 'https://itunes.apple.com/in/app/koimoi-bollywood-news-box-office/id775718111?mt=8';
+            });
+        }
+
+        return "unknown";
+    }
+    getMobileOperatingSystem();
+</script>
+
+
+<style type="text/css">
+    .td-subfooter-menu li a:hover {
+        color: #ccc;
+    }
+</style>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    $ = jQuery;
+    $(function() {
+        $('#menu-main-menu>li').click(function(e) {
+
+            e.stopPropagation();
+
+            setTimeout(function() {
+
+                console.log($(this).hasClass('td-sub-menu-open'))
+                if ($(this).hasClass('td-sub-menu-open')) {
+                    console.log(111)
+                    $(this).removeClass('td-sub-menu-open')
+                } else {
+                    console.log(112)
+                    $(this).addClass('td-sub-menu-open');
+
+                }
+
+            }, 500);
+
+        })
+
+
+        $('#td-header-search-button').click(function(e) {
+            e.preventDefault();
+
+            $(document).find('.dropdown-backdrop').hide();
+            if ($(document).find('.td-header-menu-wrap-full').hasClass('active')) {
+
+                $(document).find('.td-header-menu-wrap-full').css('height', '54px');
+                $(document).find('.td-header-menu-wrap-full').removeClass('active');
+            } else {
+
+                $(document).find('.td-header-menu-wrap-full').css('height', '122px');
+                $(document).find('.td-header-menu-wrap-full').addClass('active');
+            }
+
+        })
+    })
+</script>
+
+
+    <!-- GPT AdSlot 2 for Ad unit 'Koimoi_Desktop_HP_LHS_160x600' ### Size: [[160,600]] -->
+    <!-- GPT AdSlot 2 for Ad unit 'Koimoi_Desktop_SP_LHS_160x600' ### Size: [[160,600]] -->
+    <!-- GPT AdSlot 2 for Ad unit 'Koimoi_Desktop_AP_LHS_160x600' ### Size: [[160,600]] -->
+    <div id="LHS_ad"></div>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript" async>
+        if (/iPhone|Android|iPod|Blackberry|Palm|Mobile|AvantGo|Docomo/i.test(navigator.userAgent)) {
+            // mobile ad
+            $("#LHS_ad").remove();
+        } else {
+            // desktop ad
+            var ad = '&lt;div id=&quot;div-gpt-ad-5715095-2&quot; class=&quot;ad-wrapper-border&quot;&gt;&lt;/div&gt;                        &lt;script&gt;                           window.googletag = window.googletag || {cmd: []};                           googletag.cmd.push(function () {                               googletag.defineSlot(&quot;/18938132/Koimoi_Desktop_AP_LHS_160x600&quot;, [[160, 600]], &quot;div-gpt-ad-5715095-2&quot;).addService(googletag.pubads());                               googletag.enableServices();                               googletag.display(&quot;div-gpt-ad-5715095-2&quot;);                           });                       &lt;/script&gt;';
+            var screenWidth = window.screen.width;
+            if ( screenWidth > 1369) {
+                var decoded = decodeHtml(ad);
+                attachHtml('LHS_ad', decoded);
+            } else {
+                $("#LHS_ad").remove();
+            }
+        }
+    </script>
+
+    <!-- GPT AdSlot 3 for Ad unit 'Koimoi_Desktop_HP_RHS_160x600' ### Size: [[160,600]] -->
+    <!-- GPT AdSlot 3 for Ad unit 'Koimoi_Desktop_SP_RHS_160x600' ### Size: [[160,600]] -->
+    <!-- GPT AdSlot 3 for Ad unit 'Koimoi_Desktop_AP_RHS_160x600' ### Size: [[160,600]] -->
+    <div id="RHS_ad"></div>
+    <script type="rocketlazyloadscript" data-rocket-type="text/javascript" async>
+        if (/iPhone|Android|iPod|Blackberry|Palm|Mobile|AvantGo|Docomo/i.test(navigator.userAgent)) {
+            // mobile ad
+            $("#RHS_ad").remove();
+        } else {
+            // desktop ad 
+            var ad = '&lt;div id=&quot;div-gpt-ad-5715095-3&quot; class=&quot;ad-wrapper-border&quot;&gt;&lt;/div&gt;                        &lt;script&gt;                            window.googletag = window.googletag || {cmd: []};                            googletag.cmd.push(function () {                                googletag.defineSlot(&quot;/18938132/Koimoi_Desktop_AP_RHS_160x600&quot;, [[160, 600]], &quot;div-gpt-ad-5715095-3&quot;).addService(googletag.pubads());                                googletag.enableServices();                                googletag.display(&quot;div-gpt-ad-5715095-3&quot;);                            });                        &lt;/script&gt;';
+            var screenWidth = window.screen.width;
+            if ( screenWidth > 1369 ) {
+                var decoded = decodeHtml(ad);
+                attachHtml('RHS_ad', decoded);
+            } else {
+                $("#LHS_ad").remove();
+            }
+        }
+    </script>
+    
+
+<script type="rocketlazyloadscript">
+    $(document).on("click", "#td-header-menu", function() {
+        console.log('ert');
+        if ($('.td-drop-down-search').hasClass('td-drop-down-search-open')) {
+            $('#td-header-search-button').trigger('click');
+        } else {
+
+        }
+    });
+</script>
+
+<script type="rocketlazyloadscript" data-rocket-src="https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/owl.carousel.min.js" defer></script>
+
+<script type="rocketlazyloadscript">
+    $(document).ready(function() {
+        var owl = $('.upcoming-movies-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    })
+
+    $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            margin: 10,
+            nav: true,
+            dots: false,
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1.5,
+                    nav: false
+                },
+                600: {
+                    items: 2.5
+                },
+                1000: {
+                    items: 3.5
+                }
+            }
+        })
+    })
+</script>
+
+ 
+<style type="text/css">
+    @font-face {
+        font-family: 'newspaper';
+        src: url('https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.eot');
+        src: url('https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.eot#iefix') format('embedded-opentype'), url('https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.woff2') format('woff'), url('https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.ttf') format('truetype'), url('https://static-koimoi.akamaized.net/wp-content/themes/Newsmag/images/icons/newspaper.svg#newspaper') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+</style>
+<!-- end for font -->
+
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=5249 metric#misses=188 metric#hit-ratio=96.5 metric#bytes=4191679 metric#prefetches=0 metric#store-reads=135 metric#store-writes=12 metric#store-hits=221 metric#store-misses=65 metric#sql-queries=16 metric#ms-total=426.30 metric#ms-cache=13.79 metric#ms-cache-avg=0.0944 metric#ms-cache-ratio=3.2 -->
