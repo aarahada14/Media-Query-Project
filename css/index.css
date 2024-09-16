@@ -105,6 +105,9 @@ img{
 .d-none{
     display: none;
 }
+.btn-none{
+    display: flex;
+}
 .row{
     display:flex;
     flex-wrap: wrap;
@@ -278,6 +281,7 @@ p{
 .t-white{
     color: white;
 }
+
 button{
     margin: auto;
     width: 150px;
@@ -326,6 +330,9 @@ button:hover{
 
 .w-100{
     width: 100%;
+}
+.w-50{
+    width:50px;
 }
 
 
@@ -390,7 +397,7 @@ button:hover{
 
 
 .div{
-    background-color: #4eff00;
+   background-color: #43e000;
     height: 10px;
     width: 01px;
     margin: auto;

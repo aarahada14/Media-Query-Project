@@ -60,7 +60,7 @@
     .d-xl-flex{
         display: flex;
     }
-    
+   
 }
 
 @media(min-width:1200px){
@@ -91,6 +91,7 @@
     .w-xxl-4{
         width: 25%;
     }
+    
 }
 
  
